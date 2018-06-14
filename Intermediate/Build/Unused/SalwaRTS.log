@@ -1,0 +1,45 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for SalwaRTSEditor (.uproject file is newer)
+  Parsing headers for SalwaRTSEditor
+    Running UnrealHeaderTool "C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\SalwaRTS.uproject" "C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\SalwaRTSEditor\Development\SalwaRTSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SalwaRTSEditor in 8,8355467 seconds
+  Performing 35 actions (4 in parallel)
+  MyActor.gen.cpp
+  Item.gen.cpp
+  ManaComponent.gen.cpp
+  HealthComponent.gen.cpp
+  MyGameMode.gen.cpp
+  MyGameState.gen.cpp
+  MyCharacter.gen.cpp
+  MyGameInstance.gen.cpp
+  MyHUD.gen.cpp
+  MyPlayerState.gen.cpp
+  MyPlayerController.gen.cpp
+  PlayerCameraPawn.gen.cpp
+  UnitsSelectionComponent.gen.cpp
+  InputActionsComponent.gen.cpp
+  UnitsSelectionComponent.cpp
+  PlayerCameraPawn.cpp
+  ManaComponent.cpp
+  HealthComponent.cpp
+  MyActor.cpp
+  MyCharacter.cpp
+  MyGameInstance.cpp
+  MyGameMode.cpp
+  MyGameState.cpp
+  MyHUD.cpp
+  MyPlayerState.cpp
+  MyPlayerController.cpp
+  SalwaRTS.cpp
+  WeaponComponent.cpp
+  Weapon.cpp
+  InputActionsComponent.cpp
+  Item.cpp
+  Weapon.gen.cpp
+  WeaponComponent.gen.cpp
+  [34/35] Link UE4Editor-SalwaRTS.dll
+  [35/35] Link UE4Editor-SalwaRTS.lib
+     Creating library C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SalwaRTS.lib and object C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SalwaRTS.exp
+     Creating library C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SalwaRTS.suppressed.lib and object C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SalwaRTS.suppressed.exp
+  Deploying SalwaRTSEditor Win64 Development...
+  Total build time: 105,99 seconds (Local executor: 78,62 seconds)

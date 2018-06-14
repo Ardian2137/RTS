@@ -1,0 +1,677 @@
+﻿Log file open, 12/07/17 01:54:31
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: SalwaRTS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2131425758) SRandInit(2131425758).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.149697
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Programs/UE_4.17/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.07-00.54.32:036][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-00.54.32:036][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-00.54.32:043][  0]LogInit: Computer: SALVEIRO-PC
+[2017.12.07-00.54.32:043][  0]LogInit: User: Salveiro
+[2017.12.07-00.54.32:043][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.07-00.54.32:043][  0]LogInit: High frequency timer resolution =3.417978 MHz
+[2017.12.07-00.54.32:043][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.07-00.54.32:043][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-00.54.32:043][  0]LogMemory: Process Physical Memory: 278.04 MB used, 278.04 MB peak
+[2017.12.07-00.54.32:043][  0]LogMemory: Process Virtual Memory: 276.33 MB used, 276.33 MB peak
+[2017.12.07-00.54.32:043][  0]LogMemory: Physical Memory: 4229.29 MB used,  3879.32 MB free, 8108.61 MB total
+[2017.12.07-00.54.32:043][  0]LogMemory: Virtual Memory: 655.47 MB used,  3879.32 MB free, 8388608.00 MB total
+[2017.12.07-00.54.32:128][  0]LogInit: Using OS detected language (pl-PL).
+[2017.12.07-00.54.32:128][  0]LogInit: Using OS detected locale (pl-PL).
+[2017.12.07-00.54.32:130][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2017.12.07-00.54.32:130][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2017.12.07-00.54.32:656][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-00.54.32:677][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.12.07-00.54.32:677][  0]LogD3D11RHI:       4007/0/3798 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.07-00.54.32:677][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.07-00.54.32:680][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-00.54.32:680][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-00.54.32:680][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-00.54.32:681][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.12.07-00.54.32:681][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.07-00.54.32:681][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.07-00.54.32:681][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.07-00.54.32:681][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.07-00.54.32:681][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.07-00.54.32:681][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.07-00.54.32:681][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.07-00.54.32:681][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.12.07-00.54.32:681][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.12.07-00.54.32:681][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.12.07-00.54.32:681][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.07-00.54.32:688][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-00.54.32:702][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.07-00.54.32:703][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Intermediate/Shaders/WorkingDirectory/4288/).
+[2017.12.07-00.54.32:703][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Salveiro/AppData/Local/Temp/UnrealShaderWorkingDir/4CBB5B2E49E0CB47AF969AB65C577F8E/'.
+[2017.12.07-00.54.32:703][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.07-00.54.33:405][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-00.54.33:435][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-00.54.33:467][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-00.54.33:498][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-00.54.33:535][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.07-00.54.33:573][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-00.54.33:611][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-00.54.33:647][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-00.54.33:670][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-00.54.33:700][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-00.54.33:729][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-00.54.33:761][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-00.54.33:790][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-00.54.33:820][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-00.54.33:850][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-00.54.33:911][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-00.54.33:911][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-00.54.33:930][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-00.54.33:989][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.07-00.54.34:007][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-00.54.34:036][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-00.54.34:064][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-00.54.34:094][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-00.54.34:123][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-00.54.34:123][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.07-00.54.34:356][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.07-00.54.34:440][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Salveiro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.07-00.54.34:440][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Salveiro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.07-00.54.34:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-00.54.34:440][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-00.54.34:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-00.54.34:440][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-00.54.34:457][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-00.54.34:467][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Salveiro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-00.54.34:476][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-00.54.34:476][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-00.54.34:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-00.54.34:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-00.54.34:691][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.12.07-00.54.34:848][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-00.54.34:851][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.07-00.54.35:103][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-00.54.35:124][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-00.54.35:124][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-00.54.35:124][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.07-00.54.35:124][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.07-00.54.35:124][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.07-00.54.35:432][  0]LogNetVersion: SalwaRTS , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3787491289)
+[2017.12.07-00.54.35:565][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.012442 seconds
+[2017.12.07-00.54.35:571][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.07-00.54.35:571][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.07-00.54.35:571][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-00.54.35:601][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.07-00.54.37:499][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-00.54.37:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-00.54.37:939][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-00.54.38:216][  0]SourceControl: Source control is disabled
+[2017.12.07-00.54.38:216][  0]SourceControl: Source control is disabled
+[2017.12.07-00.54.38:243][  0]SourceControl: Source control is disabled
+[2017.12.07-00.54.38:270][  0]SourceControl: Source control is disabled
+[2017.12.07-00.54.38:604][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-00.54.38:741][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-00.54.38:909][  0]LogEngine: Initializing Engine...
+[2017.12.07-00.54.38:910][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-00.54.39:132][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-00.54.39:132][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-00.54.39:210][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-00.54.39:220][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.54.39:225][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-00.54.39:369][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Salveiro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.07-00.54.39:384][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-00.54.39:449][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-00.54.39:577][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-00.54.39:761][  0]BlueprintLog: New page: Editor Load
+[2017.12.07-00.54.40:283][  0]LocalizationService: Localization service is disabled
+[2017.12.07-00.54.40:592][  0]LogLinker: Warning: Can't find file '/Game/RTS_tutorial/TopDownOverview'
+[2017.12.07-00.54.40:592][  0]LogLinker: Warning: Can't find file '/Game/RTS_tutorial/TopDownOverview'
+[2017.12.07-00.54.40:592][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/RTS_tutorial/TopDownOverview.TopDownOverview_C'
+[2017.12.07-00.54.40:692][  0]LogConsoleResponse: Display: 
+[2017.12.07-00.54.40:843][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-00.54.40:843][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.07-00.54.40:843][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.07-00.54.41:433][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/' took 0.01s
+[2017.12.07-00.54.41:433][  0]SourceControl: Source control is disabled
+[2017.12.07-00.54.41:433][  0]Cmd: MAP LOAD FILE="../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Maps/RTS_test_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-00.54.41:433][  0]LightingResults: New page: Lighting Build
+[2017.12.07-00.54.41:457][  0]MapCheck: New page: Map Check
+[2017.12.07-00.54.41:457][  0]LightingResults: New page: Lighting Build
+[2017.12.07-00.54.41:563][  0]LogBlueprint: Warning: [Compiler TopDownCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.12.07-00.54.41:567][  0]LogBlueprint: Warning: [Compiler TopDownCharacter] [0010.49] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 7 ms] (/Game/RTS_tutorial/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.12.07-00.54.42:210][  0]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.07-00.54.42:233][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-00.54.42:250][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-00.54.42:280][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.445ms to complete.
+[2017.12.07-00.54.42:281][  0]LogFileHelpers: Loading map 'RTS_test_map' took 0.848
+[2017.12.07-00.54.42:401][  0]LogCollectionManager: Loaded 0 collections in 0.001258 seconds
+[2017.12.07-00.54.42:458][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Collections/' took 0.01s
+[2017.12.07-00.54.42:458][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/Developers/Salveiro/Collections/' took 0.01s
+[2017.12.07-00.54.42:458][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/Collections/' took 0.01s
+[2017.12.07-00.54.42:458][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.07-00.54.42:467][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2386 classes and 500 folders.
+[2017.12.07-00.54.42:503][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.07-00.54.42:529][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.07-00.54.42:555][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.07-00.54.42:653][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-00.54.42:656][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-00.54.42:659][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-00.54.42:754][  0]LogRenderer: Reallocating scene render targets to support 1240x672 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-00.54.42:926][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.07-00.54.42:926][  0]LogLoad: (Engine Initialization) Total time: 11.85 seconds
+[2017.12.07-00.54.42:926][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.07-00.54.42:927][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.07-00.54.43:287][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.07-00.54.43:327][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-00.54.43:601][  1]LogAssetRegistry: Asset discovery search completed in 8.9311 seconds
+[2017.12.07-00.54.43:603][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.07-00.54.43:603][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.12.07-00.54.44:267][  3]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-00.55.11:157][606]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.07-00.55.11:180][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-00.55.11:180][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-00.55.11:181][606]PIE: New page: PIE session: RTS_test_map (Dec 7, 2017, 2:55:11 AM)
+[2017.12.07-00.55.11:181][606]LogPlayLevel: Creating play world package: /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map
+[2017.12.07-00.55.11:191][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010393s)
+[2017.12.07-00.55.11:192][606]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.07-00.55.11:192][606]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2017.12.07-00.55.11:192][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map to /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map (0.011258s)
+[2017.12.07-00.55.11:204][606]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.55.11:209][606]LogInit: FAudioDevice initialized.
+[2017.12.07-00.55.11:253][606]LogLoad: Game class is 'MyGameMode_C'
+[2017.12.07-00.55.11:257][606]LogWorld: Bringing World /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map up for play (max tick rate 0) at 2017.12.07-01.55.11
+[2017.12.07-00.55.11:258][606]LogWorld: Bringing up level for play took: 0.003597
+[2017.12.07-00.55.11:280][606]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.12.07-00.55.11:286][606]PIE: Play in editor start time for /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map 0.73
+[2017.12.07-00.55.11:286][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-00.55.11:312][606]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-00.55.12:107][690]LogBlueprintUserMessages: [CameraPawnController_C_0] SDASDASDASDo
+[2017.12.07-00.55.13:201][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-00.55.13:237][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-00.55.28:993][677]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-00.55.29:257][677]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2017.12.07-00.55.29:821][677]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0E07
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0F7E
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0B5A
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0D97
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2017.12.07-00.55.29:894][677]LogScript: Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2017.12.07-00.55.29:895][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:19B9
+[2017.12.07-00.55.29:895][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1B02
+[2017.12.07-00.55.29:895][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2017.12.07-00.55.29:895][677]LogScript: Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2017.12.07-00.55.29:895][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:14A4
+[2017.12.07-00.55.29:895][677]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1590
+[2017.12.07-00.55.29:897][677]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.07-00.55.30:274][678]LogScript: Warning: Accessed None trying to read property CameraPawnRef
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2017.12.07-00.55.30:279][678]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.07-01.00.27:061][469]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.07-01.00.27:078][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.00.27:079][469]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.07-01.00.27:126][469]LogPlayLevel: [PlayLevel] Compiling CameraPawnController before play...
+[2017.12.07-01.00.27:166][469]LogPlayLevel: [PlayLevel]   Compiling MainUI_HUD as a dependent...
+[2017.12.07-01.00.27:183][469]LogPlayLevel: [PlayLevel]   Compiling MyGameState as a dependent...
+[2017.12.07-01.00.27:439][469]LogPlayLevel: PlayLevel: Blueprint regeneration took 360 ms (3 blueprints)
+[2017.12.07-01.00.27:440][469]PIE: New page: PIE session: RTS_test_map (Dec 7, 2017, 3:00:27 AM)
+[2017.12.07-01.00.27:440][469]LogPlayLevel: Creating play world package: /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map
+[2017.12.07-01.00.27:451][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010954s)
+[2017.12.07-01.00.27:452][469]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.07-01.00.27:452][469]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2017.12.07-01.00.27:452][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map to /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map (0.012568s)
+[2017.12.07-01.00.27:472][469]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.00.27:478][469]LogInit: FAudioDevice initialized.
+[2017.12.07-01.00.27:511][469]LogLoad: Game class is 'MyGameMode_C'
+[2017.12.07-01.00.27:515][469]LogWorld: Bringing World /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map up for play (max tick rate 0) at 2017.12.07-02.00.27
+[2017.12.07-01.00.27:515][469]LogWorld: Bringing up level for play took: 0.003524
+[2017.12.07-01.00.27:519][469]PIE: Play in editor start time for /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map 0.962
+[2017.12.07-01.00.27:520][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.00.29:509][611]LogBlueprintUserMessages: [CameraPawnController_C_0] SDASDASDASDo
+[2017.12.07-01.00.30:001][655]LogBlueprintUserMessages: [CameraPawnController_C_0] SDASDASDASDo
+[2017.12.07-01.00.31:876][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.00.31:914][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.00.58:008][800]BlueprintLog: New page: Compile MainUI_HUD
+[2017.12.07-01.00.59:351][924]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.07-01.00.59:369][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.00.59:369][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.00.59:369][924]PIE: New page: PIE session: RTS_test_map (Dec 7, 2017, 3:00:59 AM)
+[2017.12.07-01.00.59:369][924]LogPlayLevel: Creating play world package: /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map
+[2017.12.07-01.00.59:379][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010454s)
+[2017.12.07-01.00.59:380][924]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.07-01.00.59:380][924]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.12.07-01.00.59:380][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map to /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map (0.011460s)
+[2017.12.07-01.00.59:401][924]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.00.59:406][924]LogInit: FAudioDevice initialized.
+[2017.12.07-01.00.59:440][924]LogLoad: Game class is 'MyGameMode_C'
+[2017.12.07-01.00.59:443][924]LogWorld: Bringing World /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map up for play (max tick rate 0) at 2017.12.07-02.00.59
+[2017.12.07-01.00.59:444][924]LogWorld: Bringing up level for play took: 0.003075
+[2017.12.07-01.00.59:448][924]PIE: Play in editor start time for /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map 0.891
+[2017.12.07-01.00.59:448][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.01.00:400][ 32]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.12.07-01.01.00:550][ 50]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.12.07-01.01.03:434][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.01.03:476][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.01.32:147][757]LogSavePackage: Save=23.52ms
+[2017.12.07-01.01.32:147][757]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/GhostBuilding_BPC56E7E4949DE2406EC046496294D7EBA.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset'
+[2017.12.07-01.01.32:147][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset
+[2017.12.07-01.01.45:508][347]BlueprintLog: New page: Compile GhostBuilding_BP
+[2017.12.07-01.02.04:847][619]LogSavePackage: Save=27.16ms
+[2017.12.07-01.02.04:847][619]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/GhostBuilding_BP22E813F742957969D11D88AEA0BA239A.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset'
+[2017.12.07-01.02.04:848][619]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset
+[2017.12.07-01.02.08:994][ 41]LogSavePackage: Save=238.11ms
+[2017.12.07-01.02.08:994][ 41]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnController1D99BBDB48A5E7C33296FE969054E719.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset'
+[2017.12.07-01.02.08:995][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset
+[2017.12.07-01.02.20:543][271]LogBlueprint: Warning: [GhostBuilding_BP] 'GhostBuildingRef' variable not found. Base class was probably changed.
+[2017.12.07-01.02.21:979][437]BlueprintLog: New page: Compile GhostBuilding_BP
+[2017.12.07-01.02.22:054][437]LogBlueprint: Warning: [Compiler GhostBuilding_BP] Could not find a variable named "GhostBuildingRef" in 'GhostBuilding_BP_C'.
+Make sure 'GhostBuilding_BP_C' has been compiled for  Get GhostBuildingRef
+[2017.12.07-01.02.22:069][437]LogBlueprint: Error: [Compiler GhostBuilding_BP] The property associated with  Ghost Building Ref  could not be found
+[2017.12.07-01.02.22:251][437]LogBlueprint: Warning: [Compiler GhostBuilding_BP] [0471.18] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 271 ms] (/Game/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.GhostBuilding_BP)
+[2017.12.07-01.02.47:632][434]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.07-01.03.06:611][659]LogSavePackage: Save=38.36ms
+[2017.12.07-01.03.06:611][659]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/GhostBuilding_BPEC90DAD54ADD8F9CE3C4E6A0EB17DB88.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset'
+[2017.12.07-01.03.06:611][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset
+[2017.12.07-01.03.07:862][809]BlueprintLog: New page: Compile GhostBuilding_BP
+[2017.12.07-01.03.10:738][112]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.07-01.03.10:753][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.03.10:753][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.03.10:753][112]PIE: New page: PIE session: RTS_test_map (Dec 7, 2017, 3:03:10 AM)
+[2017.12.07-01.03.10:753][112]LogPlayLevel: Creating play world package: /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map
+[2017.12.07-01.03.10:765][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011024s)
+[2017.12.07-01.03.10:765][112]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.07-01.03.10:765][112]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2017.12.07-01.03.10:766][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map to /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map (0.012077s)
+[2017.12.07-01.03.10:787][112]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.03.10:792][112]LogInit: FAudioDevice initialized.
+[2017.12.07-01.03.10:823][112]LogLoad: Game class is 'MyGameMode_C'
+[2017.12.07-01.03.10:826][112]LogWorld: Bringing World /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map up for play (max tick rate 0) at 2017.12.07-02.03.10
+[2017.12.07-01.03.10:827][112]LogWorld: Bringing up level for play took: 0.003250
+[2017.12.07-01.03.10:831][112]PIE: Play in editor start time for /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map 0.274
+[2017.12.07-01.03.10:832][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.03.14:053][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.03.14:092][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.05.10:615][352]LogSavePackage: Save=41.21ms
+[2017.12.07-01.05.10:615][352]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/GhostBuilding_BP6FEADED24BCD63A9E3646A89B2482B04.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset'
+[2017.12.07-01.05.10:616][352]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset
+[2017.12.07-01.05.11:305][434]BlueprintLog: New page: Compile GhostBuilding_BP
+[2017.12.07-01.06.56:859][934]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_tutorial/Maps/RTS_test_map' took 0.024
+[2017.12.07-01.06.56:861][934]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_tutorial/Blueprints/CameraPawnController] ([1] browsable assets)...
+[2017.12.07-01.06.56:861][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_tutorial/Blueprints/CameraPawnController]
+[2017.12.07-01.06.57:126][934]LogSavePackage: Save=260.50ms
+[2017.12.07-01.06.57:126][934]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnController_Auto1949B11AB48A4DEA36F23368CDF3499D3.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/Blueprints/CameraPawnController_Auto1.uasset'
+[2017.12.07-01.06.57:127][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/Blueprints/CameraPawnController_Auto1.uasset
+[2017.12.07-01.06.57:127][934]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP] ([1] browsable assets)...
+[2017.12.07-01.06.57:127][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP]
+[2017.12.07-01.06.57:174][934]LogSavePackage: Save=43.94ms
+[2017.12.07-01.06.57:174][934]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/GhostBuilding_BP_Auto19CBB55D648255A42C27B3C809FCC2C84.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP_Auto1.uasset'
+[2017.12.07-01.06.57:175][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP_Auto1.uasset
+[2017.12.07-01.06.57:175][934]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2017.12.07-01.06.57:175][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_tutorial/HUDs/MainUI_HUD]
+[2017.12.07-01.06.57:323][934]LogSavePackage: Save=142.97ms
+[2017.12.07-01.06.57:323][934]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/MainUI_HUD_Auto18D41029949AF1E1EBB35F9982775604A.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/HUDs/MainUI_HUD_Auto1.uasset'
+[2017.12.07-01.06.57:345][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/HUDs/MainUI_HUD_Auto1.uasset
+[2017.12.07-01.06.57:345][934]LogFileHelpers: Auto-saving content packages took 0.485
+[2017.12.07-01.07.20:578][180]LogSavePackage: Save=38.39ms
+[2017.12.07-01.07.20:578][180]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/GhostBuilding_BP1253566A445019EE436BF096EF5D25EF.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset'
+[2017.12.07-01.07.20:579][180]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/Buildings/GhostBuilding_BP.uasset
+[2017.12.07-01.08.42:254][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_tutorial/HUDs/MainUI_HUD" FILE="../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/HUDs/MainUI_HUD.uasset" SILENT=true
+[2017.12.07-01.08.42:383][549]LogSavePackage: Save=125.11ms
+[2017.12.07-01.08.42:383][549]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/MainUI_HUDCED2AA534B4829CF68CB4F8087C9F2D0.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/HUDs/MainUI_HUD.uasset'
+[2017.12.07-01.08.42:384][549]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/HUDs/MainUI_HUD.uasset
+[2017.12.07-01.08.42:843][604]BlueprintLog: New page: Compile MainUI_HUD
+[2017.12.07-01.10.49:162][628]LogEditorTransaction: Undo Create Pin Link
+[2017.12.07-01.10.49:470][659]LogEditorTransaction: Undo Add Node
+[2017.12.07-01.10.49:869][692]LogEditorTransaction: Undo Break Pin Links
+[2017.12.07-01.10.50:204][728]LogEditorTransaction: Undo Create Pin Link
+[2017.12.07-01.10.50:568][768]LogEditorTransaction: Undo Break Pin Links
+[2017.12.07-01.10.50:932][808]LogEditorTransaction: Undo Create Pin Link
+[2017.12.07-01.10.51:354][855]LogEditorTransaction: Undo Move Node
+[2017.12.07-01.10.53:194][ 72]LogEditorTransaction: Undo Move Node
+[2017.12.07-01.10.53:766][137]LogEditorTransaction: Undo Move Node
+[2017.12.07-01.10.54:585][234]LogEditorTransaction: Undo Create Pin Link
+[2017.12.07-01.10.55:927][394]LogEditorTransaction: Undo Create Pin Link
+[2017.12.07-01.10.56:477][459]LogEditorTransaction: Undo Add Node
+[2017.12.07-01.10.57:244][550]LogEditorTransaction: Undo Change Variable Category
+[2017.12.07-01.11.20:660][350]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.07-01.11.20:678][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.11.20:678][350]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.07-01.11.20:720][350]LogPlayLevel: [PlayLevel] Compiling CameraPawnController before play...
+[2017.12.07-01.11.20:757][350]LogPlayLevel: [PlayLevel]   Compiling MyGameState as a dependent...
+[2017.12.07-01.11.20:988][350]LogPlayLevel: [PlayLevel] Compiling GhostBuilding_BP before play...
+[2017.12.07-01.11.20:995][350]LogPlayLevel: [PlayLevel]   Compiling CameraPawnController as a dependent...
+[2017.12.07-01.11.21:338][350]LogPlayLevel: [PlayLevel] Compiling CameraPawnController before play...
+[2017.12.07-01.11.21:377][350]LogPlayLevel: [PlayLevel]   Compiling MainUI_HUD as a dependent...
+[2017.12.07-01.11.21:411][350]LogBlueprint: Error: [Compiler MainUI_HUD] Message node  Construct Building
+Using Interface I_HUD_C  must have a valid target or reference to self.
+[2017.12.07-01.11.21:411][350]LogBlueprint: Error: [Compiler MainUI_HUD] Message node  Construct Building
+Using Interface I_HUD_C  must have a valid target or reference to self.
+[2017.12.07-01.11.21:437][350]LogBlueprint: Warning: [Compiler MainUI_HUD] [1010.36] Compile of MainUI_HUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 101 ms] (/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD)
+[2017.12.07-01.11.21:641][350]LogPlayLevel: PlayLevel: Blueprint regeneration took 962 ms (6 blueprints)
+[2017.12.07-01.11.21:641][350]BlueprintLog: Blueprint MainUI_HUD failed to compile
+[2017.12.07-01.11.26:684][568]BlueprintLog: New page: Compile CameraPawnController
+[2017.12.07-01.11.50:749][380]BlueprintLog: New page: Compile MainUI_HUD
+[2017.12.07-01.11.50:808][380]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C:GhostBuildingRef', MetaData 'True', Flag 'False'
+[2017.12.07-01.11.50:860][380]LogBlueprint: Warning: [Compiler CameraPawnController] Input pin  Ghost Building Ref  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.12.07-01.11.50:892][380]LogBlueprint: Warning: [Compiler CameraPawnController] [1039.81] Compile of CameraPawnController successful, but with 1 Warning(s) [in 125 ms] (/Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController)
+[2017.12.07-01.11.52:421][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_tutorial/HUDs/MainUI_HUD" FILE="../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/HUDs/MainUI_HUD.uasset" SILENT=true
+[2017.12.07-01.11.52:549][537]LogSavePackage: Save=123.87ms
+[2017.12.07-01.11.52:549][537]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/MainUI_HUD4B550CC649FCB247A90ABB9C91918A03.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/HUDs/MainUI_HUD.uasset'
+[2017.12.07-01.11.52:550][537]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/HUDs/MainUI_HUD.uasset
+[2017.12.07-01.12.08:494][427]BlueprintLog: New page: Compile CameraPawnController
+[2017.12.07-01.12.08:604][427]LogBlueprint: Warning: [Compiler CameraPawnController] Input pin  Ghost Building Ref  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.12.07-01.12.08:606][427]LogBlueprint: Warning: [Compiler CameraPawnController] Input pin  Ghost Building Ref  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.12.07-01.12.08:797][427]LogBlueprint: Warning: [Compiler CameraPawnController] [1057.72] Compile of CameraPawnController successful, but with 2 Warning(s) [in 302 ms] (/Game/RTS_tutorial/Blueprints/CameraPawnController.CameraPawnController)
+[2017.12.07-01.12.56:333][888]LogSavePackage: Save=224.78ms
+[2017.12.07-01.12.56:333][888]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnControllerBC23716646FD574A986939923EEEAEBF.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset'
+[2017.12.07-01.12.56:334][888]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset
+[2017.12.07-01.14.20:968][925]LogSavePackage: Save=226.11ms
+[2017.12.07-01.14.20:968][925]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnControllerE95742994E19218F66858186BC5135E0.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset'
+[2017.12.07-01.14.20:969][925]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset
+[2017.12.07-01.14.21:457][983]BlueprintLog: New page: Compile CameraPawnController
+[2017.12.07-01.14.36:546][386]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.07-01.14.36:562][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.14.36:562][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.14.36:562][386]PIE: New page: PIE session: RTS_test_map (Dec 7, 2017, 3:14:36 AM)
+[2017.12.07-01.14.36:562][386]LogPlayLevel: Creating play world package: /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map
+[2017.12.07-01.14.36:573][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011137s)
+[2017.12.07-01.14.36:574][386]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.07-01.14.36:574][386]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2017.12.07-01.14.36:574][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map to /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map (0.012136s)
+[2017.12.07-01.14.36:596][386]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.14.36:600][386]LogInit: FAudioDevice initialized.
+[2017.12.07-01.14.36:637][386]LogLoad: Game class is 'MyGameMode_C'
+[2017.12.07-01.14.36:641][386]LogWorld: Bringing World /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map up for play (max tick rate 0) at 2017.12.07-02.14.36
+[2017.12.07-01.14.36:641][386]LogWorld: Bringing up level for play took: 0.003523
+[2017.12.07-01.14.36:650][386]PIE: Play in editor start time for /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map 0.091
+[2017.12.07-01.14.36:650][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.14.40:427][807]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.12.07-01.14.41:139][888]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.12.07-01.14.42:345][ 24]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.14.42:386][ 24]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.07-01.14.44:034][186]LogSavePackage: Save=226.46ms
+[2017.12.07-01.14.44:034][186]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnControllerD4E525314DD22E123244E087DC508806.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset'
+[2017.12.07-01.14.44:035][186]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset
+[2017.12.07-01.17.54:068][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_tutorial/Maps/RTS_test_map' took 0.027
+[2017.12.07-01.17.54:069][968]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_tutorial/Blueprints/CameraPawnController] ([1] browsable assets)...
+[2017.12.07-01.17.54:069][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_tutorial/Blueprints/CameraPawnController]
+[2017.12.07-01.17.54:309][968]LogSavePackage: Save=234.48ms
+[2017.12.07-01.17.54:309][968]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnController_Auto2F2477EDA47BABCA1D2B8DEA837C956A5.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/Blueprints/CameraPawnController_Auto2.uasset'
+[2017.12.07-01.17.54:309][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Autosaves/Game/RTS_tutorial/Blueprints/CameraPawnController_Auto2.uasset
+[2017.12.07-01.17.54:309][968]LogFileHelpers: Auto-saving content packages took 0.241
+[2017.12.07-01.18.13:941][952]LogSavePackage: Save=1.36ms
+[2017.12.07-01.18.13:941][952]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/FunctionLibraryB16C07074834169BFA9D67ACA1A11C47.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Libraries/FunctionLibrary.uasset'
+[2017.12.07-01.18.13:942][952]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Libraries/FunctionLibrary.uasset
+[2017.12.07-01.23.51:806][976]BlueprintLog: New page: Compile FunctionLibrary
+[2017.12.07-01.23.52:339][ 33]LogSavePackage: Save=10.50ms
+[2017.12.07-01.23.52:339][ 33]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/FunctionLibrary546AC3974A21DB92FE0CCA8A50FC7066.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Libraries/FunctionLibrary.uasset'
+[2017.12.07-01.23.52:339][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Libraries/FunctionLibrary.uasset
+[2017.12.07-01.23.57:640][384]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SalwaRTS
+[2017.12.07-01.23.57:640][384]LogTemp: CWD: E:\Programs\UE_4.17\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.07-01.23.57:640][384]LogTemp: Initial Dir: E:\Programs\UE_4.17\UE_4.17
+[2017.12.07-01.23.57:640][384]LogTemp: Env CWD: E:\Programs\UE_4.17\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.07-01.23.57:640][384]LogTemp: BranchPath = SALVEIRO-PC/E/Programs/UE_4.17/UE_4.17/Engine/Binaries --- GameBranchPath = SALVEIRO-PC/E/Programs/UE_4.17/UE_4.17/Engine/Binaries
+[2017.12.07-01.23.57:787][398]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Salveiro\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.07-01.26.22:570][956]BlueprintLog: New page: Compile CameraPawnController
+[2017.12.07-01.26.24:462][111]LogSavePackage: Save=232.02ms
+[2017.12.07-01.26.24:462][111]LogSavePackage: Moving '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/CameraPawnController33C0B38B4AA47B7B1492A3BEC9F4735D.tmp' to '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset'
+[2017.12.07-01.26.24:463][111]LogSavePackage: Display: Finished SavePackage ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Blueprints/CameraPawnController.uasset
+[2017.12.07-01.27.05:810][552]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.07-01.27.06:170][553]Cmd: QUIT_EDITOR
+[2017.12.07-01.27.06:217][553]LogExit: Preparing to exit.
+[2017.12.07-01.27.06:897][553]LogDirectoryWatcher: A directory notification for 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/' was aborted.
+[2017.12.07-01.27.06:943][553]LogExit: Editor shut down
+[2017.12.07-01.27.06:946][553]LogExit: Transaction tracking system shut down
+[2017.12.07-01.27.07:164][553]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.07-01.27.07:164][553]LogDirectoryWatcher: A directory notification for '../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/' was aborted.
+[2017.12.07-01.27.07:164][553]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.07-01.27.07:164][553]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.07-01.27.07:164][553]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.07-01.27.07:248][553]LogExit: Object subsystem successfully closed.
+[2017.12.07-01.27.07:292][553]LogD3D11RHI: Shutdown
+[2017.12.07-01.27.07:292][553]LogD3D11RHI: CleanupD3DDevice
+[2017.12.07-01.27.07:378][553]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.07-01.27.07:400][553]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (540)
+[2017.12.07-01.27.07:400][553]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2017.12.07-01.27.07:400][553]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.12.07-01.27.07:400][553]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.12.07-01.27.07:401][553]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.12.07-01.27.07:401][553]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.12.07-01.27.07:401][553]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.12.07-01.27.07:402][553]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.12.07-01.27.07:418][553]LogDirectoryWatcher: A directory notification for 'E:/Programs/UE_4.17/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.12.07-01.27.07:420][553]LogDirectoryWatcher: A directory notification for 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/Collections/' was aborted.
+[2017.12.07-01.27.07:420][553]LogDirectoryWatcher: A directory notification for 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/Developers/Salveiro/Collections/' was aborted.
+[2017.12.07-01.27.07:420][553]LogDirectoryWatcher: A directory notification for 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Collections/' was aborted.
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.07-01.27.07:420][553]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.07-01.27.07:421][553]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.07-01.27.07:616][553]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.07-01.27.07:617][553]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.07-01.27.07:657][553]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.07-01.27.07:783][553]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.117 s
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: === Handled ensure: ===
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: 
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: Ensure condition failed: PinHelpers::NumPinsInMemory == 0 || PinHelpers::NumPinsInMemory == 1 [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 1164]
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: 
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: Stack: 
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA2935F6
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA01C2C2
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA034736
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D7138013
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA12B767
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor.exe!0x000000003F692E26
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor.exe!0x000000003F6939A5
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor.exe!0x000000003F6939EA
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor.exe!0x000000003F6A02D9
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: UE4Editor.exe!0x000000003F6A1C47
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: kernel32.dll!0x00000000779159CD
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: ntdll.dll!0x0000000077A4A561
+[2017.12.07-01.27.07:783][553]LogOutputDevice: Error: 
+[2017.12.07-01.27.07:792][553]LogStats:                SubmitErrorReport -  0.000 s

@@ -1,0 +1,1158 @@
+﻿Log file open, 12/04/17 17:24:35
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: SalwaRTS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-273580151) SRandInit(-273580151).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.160610
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Programs/UE_4.17/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.04-16.24.36:205][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.04-16.24.36:205][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.04-16.24.36:234][  0]LogInit: Computer: SALVEIRO-PC
+[2017.12.04-16.24.36:234][  0]LogInit: User: Salveiro
+[2017.12.04-16.24.36:234][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.04-16.24.36:234][  0]LogInit: High frequency timer resolution =3.417998 MHz
+[2017.12.04-16.24.36:234][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.04-16.24.36:234][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.04-16.24.36:234][  0]LogMemory: Process Physical Memory: 278.29 MB used, 278.29 MB peak
+[2017.12.04-16.24.36:234][  0]LogMemory: Process Virtual Memory: 276.31 MB used, 276.31 MB peak
+[2017.12.04-16.24.36:234][  0]LogMemory: Physical Memory: 4488.48 MB used,  3620.13 MB free, 8108.61 MB total
+[2017.12.04-16.24.36:234][  0]LogMemory: Virtual Memory: 655.47 MB used,  3620.13 MB free, 8388608.00 MB total
+[2017.12.04-16.24.36:316][  0]LogInit: Using OS detected language (pl-PL).
+[2017.12.04-16.24.36:316][  0]LogInit: Using OS detected locale (pl-PL).
+[2017.12.04-16.24.36:318][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2017.12.04-16.24.36:318][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2017.12.04-16.24.36:844][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.04-16.24.36:865][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.12.04-16.24.36:865][  0]LogD3D11RHI:       4007/0/3798 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.04-16.24.36:865][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.04-16.24.36:869][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.04-16.24.36:869][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.04-16.24.36:869][  0]LogWindows: EnumDisplayDevices:
+[2017.12.04-16.24.36:869][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.12.04-16.24.36:869][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.04-16.24.36:869][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.04-16.24.36:869][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.04-16.24.36:869][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.04-16.24.36:869][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.04-16.24.36:869][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.04-16.24.36:869][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.04-16.24.36:869][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.12.04-16.24.36:869][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.12.04-16.24.36:869][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.12.04-16.24.36:869][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.04-16.24.36:877][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.04-16.24.36:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.04-16.24.36:894][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Intermediate/Shaders/WorkingDirectory/1184/).
+[2017.12.04-16.24.36:894][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Salveiro/AppData/Local/Temp/UnrealShaderWorkingDir/C0DC7C684FBFB6CD19720C988336C1CB/'.
+[2017.12.04-16.24.36:894][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.04-16.24.37:794][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.04-16.24.37:825][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.04-16.24.37:856][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.04-16.24.37:887][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.04-16.24.37:918][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.04-16.24.37:950][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.04-16.24.37:982][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.04-16.24.38:013][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.04-16.24.38:044][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.04-16.24.38:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.04-16.24.38:105][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.04-16.24.38:135][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.04-16.24.38:165][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.04-16.24.38:196][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.04-16.24.38:228][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.04-16.24.38:289][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.04-16.24.38:289][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.04-16.24.38:309][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.04-16.24.38:370][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.04-16.24.38:390][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.04-16.24.38:419][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.04-16.24.38:449][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.04-16.24.38:481][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.04-16.24.38:511][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.04-16.24.38:511][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.04-16.24.38:769][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.04-16.24.38:862][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Salveiro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.04-16.24.38:862][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Salveiro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.04-16.24.38:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.04-16.24.38:863][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.04-16.24.38:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.04-16.24.38:863][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.04-16.24.38:880][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.04-16.24.38:890][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Salveiro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.04-16.24.38:899][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.04-16.24.38:900][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.04-16.24.38:900][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.04-16.24.38:900][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.04-16.24.39:128][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2017.12.04-16.24.39:270][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.04-16.24.39:274][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.04-16.24.39:529][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.04-16.24.39:554][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.04-16.24.39:554][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.04-16.24.39:554][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.04-16.24.39:554][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.04-16.24.39:554][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.04-16.24.39:876][  0]LogNetVersion: SalwaRTS , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3787491289)
+[2017.12.04-16.24.40:042][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.031228 seconds
+[2017.12.04-16.24.40:048][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.04-16.24.40:048][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.04-16.24.40:048][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.04-16.24.40:082][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.04-16.24.41:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.04-16.24.41:883][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.04-16.24.42:262][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.04-16.24.42:518][  0]SourceControl: Source control is disabled
+[2017.12.04-16.24.42:518][  0]SourceControl: Source control is disabled
+[2017.12.04-16.24.42:543][  0]SourceControl: Source control is disabled
+[2017.12.04-16.24.42:567][  0]SourceControl: Source control is disabled
+[2017.12.04-16.24.42:876][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.04-16.24.43:010][  0]LogOcInput: OculusInput pre-init called
+[2017.12.04-16.24.43:169][  0]LogEngine: Initializing Engine...
+[2017.12.04-16.24.43:171][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.04-16.24.43:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.04-16.24.43:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.04-16.24.43:467][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.04-16.24.43:476][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.04-16.24.43:481][  0]LogInit: FAudioDevice initialized.
+[2017.12.04-16.24.43:610][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/Salveiro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.04-16.24.43:624][  0]LogInit: Texture streaming: Enabled
+[2017.12.04-16.24.43:683][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.04-16.24.43:804][  0]LogInit: Transaction tracking system initialized
+[2017.12.04-16.24.43:967][  0]BlueprintLog: New page: Editor Load
+[2017.12.04-16.24.44:443][  0]LocalizationService: Localization service is disabled
+[2017.12.04-16.24.44:728][  0]LogLinker: Warning: Can't find file '/Game/RTS_tutorial/TopDownOverview'
+[2017.12.04-16.24.44:728][  0]LogLinker: Warning: Can't find file '/Game/RTS_tutorial/TopDownOverview'
+[2017.12.04-16.24.44:728][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/RTS_tutorial/TopDownOverview.TopDownOverview_C'
+[2017.12.04-16.24.44:826][  0]LogConsoleResponse: Display: 
+[2017.12.04-16.24.45:036][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.04-16.24.45:036][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.04-16.24.45:036][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.04-16.24.45:135][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/' took 0.01s
+[2017.12.04-16.24.45:639][  0]SourceControl: Source control is disabled
+[2017.12.04-16.24.45:639][  0]Cmd: MAP LOAD FILE="../../../../../../Salveiro/Documents/Unreal Projects/SalwaRTS/Content/RTS_tutorial/Maps/RTS_test_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.04-16.24.45:674][  0]LightingResults: New page: Lighting Build
+[2017.12.04-16.24.45:697][  0]MapCheck: New page: Map Check
+[2017.12.04-16.24.45:698][  0]LightingResults: New page: Lighting Build
+[2017.12.04-16.24.46:115][  0]LogBlueprint: Warning: [Compiler TopDownCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.12.04-16.24.46:118][  0]LogBlueprint: Warning: [Compiler TopDownCharacter] [0011.39] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 7 ms] (/Game/RTS_tutorial/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.12.04-16.24.46:637][  0]LogBlueprint: Warning: [Compiler MainUI_HUD] Can't connect pins  Time  and  Game Time : Convert Integer to Array of Integers
+[2017.12.04-16.24.46:638][  0]LogBlueprint: Warning: [Compiler MainUI_HUD] Can't connect pins  Game Time  and  Time : Convert Integer to Array of Integers
+[2017.12.04-16.24.46:647][  0]LogBlueprint: Warning: [Compiler MainUI_HUD] [0011.92] Compile of MainUI_HUD successful, but with 2 Warning(s) [in 63 ms] (/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD)
+[2017.12.04-16.24.49:987][  0]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.04-16.24.51:276][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.04-16.24.51:291][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.04-16.24.51:321][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.142ms to complete.
+[2017.12.04-16.24.51:321][  0]LogFileHelpers: Loading map 'RTS_test_map' took 5.682
+[2017.12.04-16.24.51:622][  0]LogCollectionManager: Loaded 0 collections in 0.001136 seconds
+[2017.12.04-16.24.51:676][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Saved/Collections/' took 0.01s
+[2017.12.04-16.24.51:676][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/Developers/Salveiro/Collections/' took 0.01s
+[2017.12.04-16.24.51:676][  0]LogFileCache: Scanning file cache for directory 'E:/Salveiro/Documents/Unreal Projects/SalwaRTS/Content/Collections/' took 0.01s
+[2017.12.04-16.24.51:676][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.04-16.24.51:683][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2386 classes and 500 folders.
+[2017.12.04-16.24.51:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.04-16.24.53:128][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.04-16.24.53:167][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.04-16.24.53:345][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.04-16.24.53:348][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.04-16.24.53:365][  0]LogSlate: Took 0.014000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.04-16.24.53:604][  0]LogRenderer: Reallocating scene render targets to support 1240x672 Format 10 NumSamples 1 (Frame:1).
+[2017.12.04-16.24.53:790][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.04-16.24.53:791][  0]LogLoad: (Engine Initialization) Total time: 19.06 seconds
+[2017.12.04-16.24.53:791][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.04-16.24.53:791][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.04-16.24.54:153][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.04-16.24.54:277][  0]LogSlate: Took 0.040873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.04-16.24.54:472][  1]LogAssetRegistry: Asset discovery search completed in 15.3659 seconds
+[2017.12.04-16.24.54:474][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.04-16.24.54:474][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.12.04-16.25.22:563][224]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.04-16.25.22:885][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.04-16.25.22:885][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.04-16.25.22:885][224]PIE: New page: PIE session: RTS_test_map (Dec 4, 2017, 6:25:22 PM)
+[2017.12.04-16.25.22:885][224]LogPlayLevel: Creating play world package: /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map
+[2017.12.04-16.25.22:897][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011579s)
+[2017.12.04-16.25.22:898][224]LogAIModule: Creating AISystem for world RTS_test_map
+[2017.12.04-16.25.22:898][224]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.12.04-16.25.22:898][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map to /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map (0.012513s)
+[2017.12.04-16.25.22:909][224]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.04-16.25.22:915][224]LogInit: FAudioDevice initialized.
+[2017.12.04-16.25.22:963][224]LogLoad: Game class is 'MyGameMode_C'
+[2017.12.04-16.25.22:967][224]LogWorld: Bringing World /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map.RTS_test_map up for play (max tick rate 0) at 2017.12.04-17.25.22
+[2017.12.04-16.25.22:968][224]LogWorld: Bringing up level for play took: 0.003571
+[2017.12.04-16.25.22:990][224]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.12.04-16.25.22:995][224]PIE: Play in editor start time for /Game/RTS_tutorial/Maps/UEDPIE_0_RTS_test_map -0.079
+[2017.12.04-16.25.22:996][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.04-16.25.22:997][224]LogBlueprintUserMessages: [MyGameState_C_0] 0:1:0
+[2017.12.04-16.25.22:997][224]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:004][224]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:036][224]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.12.04-16.25.23:067][225]LogBlueprintUserMessages: [MyGameState_C_0] 0:49:0
+[2017.12.04-16.25.23:067][225]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:090][225]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:097][226]LogBlueprintUserMessages: [MyGameState_C_0] 0:52:35
+[2017.12.04-16.25.23:097][226]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:102][226]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:144][227]LogBlueprintUserMessages: [MyGameState_C_0] 0:58:13
+[2017.12.04-16.25.23:144][227]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:148][227]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:152][228]LogBlueprintUserMessages: [MyGameState_C_0] 0:59:14
+[2017.12.04-16.25.23:152][228]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:156][228]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:161][229]LogBlueprintUserMessages: [MyGameState_C_0] 1:0:17
+[2017.12.04-16.25.23:161][229]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:165][229]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:177][230]LogBlueprintUserMessages: [MyGameState_C_0] 1:2:14
+[2017.12.04-16.25.23:177][230]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:182][230]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:189][231]LogBlueprintUserMessages: [MyGameState_C_0] 1:3:37
+[2017.12.04-16.25.23:189][231]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:192][231]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:201][232]LogBlueprintUserMessages: [MyGameState_C_0] 1:5:4
+[2017.12.04-16.25.23:201][232]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:205][232]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:211][233]LogBlueprintUserMessages: [MyGameState_C_0] 1:6:19
+[2017.12.04-16.25.23:211][233]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:215][233]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:222][234]LogBlueprintUserMessages: [MyGameState_C_0] 1:7:38
+[2017.12.04-16.25.23:222][234]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:227][234]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:232][235]LogBlueprintUserMessages: [MyGameState_C_0] 1:8:49
+[2017.12.04-16.25.23:232][235]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:235][235]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:243][236]LogBlueprintUserMessages: [MyGameState_C_0] 1:10:7
+[2017.12.04-16.25.23:243][236]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:246][236]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:253][237]LogBlueprintUserMessages: [MyGameState_C_0] 1:11:17
+[2017.12.04-16.25.23:253][237]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:256][237]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:262][238]LogBlueprintUserMessages: [MyGameState_C_0] 1:12:27
+[2017.12.04-16.25.23:262][238]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:266][238]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:273][239]LogBlueprintUserMessages: [MyGameState_C_0] 1:13:44
+[2017.12.04-16.25.23:273][239]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:277][239]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:282][240]LogBlueprintUserMessages: [MyGameState_C_0] 1:14:50
+[2017.12.04-16.25.23:282][240]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:286][240]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:292][241]LogBlueprintUserMessages: [MyGameState_C_0] 1:15:59
+[2017.12.04-16.25.23:292][241]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:295][241]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:302][242]LogBlueprintUserMessages: [MyGameState_C_0] 1:17:11
+[2017.12.04-16.25.23:302][242]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:306][242]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:311][243]LogBlueprintUserMessages: [MyGameState_C_0] 1:18:16
+[2017.12.04-16.25.23:311][243]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:314][243]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:321][244]LogBlueprintUserMessages: [MyGameState_C_0] 1:19:29
+[2017.12.04-16.25.23:321][244]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:325][244]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:330][245]LogBlueprintUserMessages: [MyGameState_C_0] 1:20:38
+[2017.12.04-16.25.23:331][245]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:334][245]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:342][246]LogBlueprintUserMessages: [MyGameState_C_0] 1:22:2
+[2017.12.04-16.25.23:342][246]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:346][246]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:353][247]LogBlueprintUserMessages: [MyGameState_C_0] 1:23:18
+[2017.12.04-16.25.23:353][247]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:356][247]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:362][248]LogBlueprintUserMessages: [MyGameState_C_0] 1:24:23
+[2017.12.04-16.25.23:362][248]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:365][248]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:373][249]LogBlueprintUserMessages: [MyGameState_C_0] 1:25:44
+[2017.12.04-16.25.23:373][249]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:377][249]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:381][250]LogBlueprintUserMessages: [MyGameState_C_0] 1:26:44
+[2017.12.04-16.25.23:381][250]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:385][250]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:394][251]LogBlueprintUserMessages: [MyGameState_C_0] 1:27:59
+[2017.12.04-16.25.23:394][251]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:397][251]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:401][252]LogBlueprintUserMessages: [MyGameState_C_0] 1:29:5
+[2017.12.04-16.25.23:401][252]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:405][252]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:409][253]LogBlueprintUserMessages: [MyGameState_C_0] 1:30:6
+[2017.12.04-16.25.23:409][253]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:413][253]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:420][254]LogBlueprintUserMessages: [MyGameState_C_0] 1:31:20
+[2017.12.04-16.25.23:420][254]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:423][254]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:429][255]LogBlueprintUserMessages: [MyGameState_C_0] 1:32:29
+[2017.12.04-16.25.23:429][255]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:433][255]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:439][256]LogBlueprintUserMessages: [MyGameState_C_0] 1:33:38
+[2017.12.04-16.25.23:439][256]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:442][256]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:447][257]LogBlueprintUserMessages: [MyGameState_C_0] 1:34:38
+[2017.12.04-16.25.23:447][257]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:451][257]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:457][258]LogBlueprintUserMessages: [MyGameState_C_0] 1:35:50
+[2017.12.04-16.25.23:457][258]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:461][258]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:465][259]LogBlueprintUserMessages: [MyGameState_C_0] 1:36:50
+[2017.12.04-16.25.23:465][259]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:469][259]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:474][260]LogBlueprintUserMessages: [MyGameState_C_0] 1:37:51
+[2017.12.04-16.25.23:474][260]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:477][260]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:484][261]LogBlueprintUserMessages: [MyGameState_C_0] 1:39:2
+[2017.12.04-16.25.23:484][261]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:487][261]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:492][262]LogBlueprintUserMessages: [MyGameState_C_0] 1:40:2
+[2017.12.04-16.25.23:492][262]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:496][262]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:501][263]LogBlueprintUserMessages: [MyGameState_C_0] 1:41:4
+[2017.12.04-16.25.23:501][263]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:504][263]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:509][264]LogBlueprintUserMessages: [MyGameState_C_0] 1:42:5
+[2017.12.04-16.25.23:509][264]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:513][264]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:519][265]LogBlueprintUserMessages: [MyGameState_C_0] 1:43:17
+[2017.12.04-16.25.23:519][265]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:523][265]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:528][266]LogBlueprintUserMessages: [MyGameState_C_0] 1:44:17
+[2017.12.04-16.25.23:528][266]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:531][266]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:537][267]LogBlueprintUserMessages: [MyGameState_C_0] 1:45:23
+[2017.12.04-16.25.23:537][267]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:540][267]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:545][268]LogBlueprintUserMessages: [MyGameState_C_0] 1:46:23
+[2017.12.04-16.25.23:545][268]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:549][268]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:555][269]LogBlueprintUserMessages: [MyGameState_C_0] 1:47:34
+[2017.12.04-16.25.23:555][269]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:559][269]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:563][270]LogBlueprintUserMessages: [MyGameState_C_0] 1:48:34
+[2017.12.04-16.25.23:563][270]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:567][270]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:572][271]LogBlueprintUserMessages: [MyGameState_C_0] 1:49:39
+[2017.12.04-16.25.23:572][271]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:576][271]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:581][272]LogBlueprintUserMessages: [MyGameState_C_0] 1:50:45
+[2017.12.04-16.25.23:581][272]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:585][272]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:590][273]LogBlueprintUserMessages: [MyGameState_C_0] 1:51:50
+[2017.12.04-16.25.23:590][273]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:594][273]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:599][274]LogBlueprintUserMessages: [MyGameState_C_0] 1:52:51
+[2017.12.04-16.25.23:599][274]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:602][274]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:608][275]LogBlueprintUserMessages: [MyGameState_C_0] 1:53:54
+[2017.12.04-16.25.23:608][275]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:612][275]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:618][276]LogBlueprintUserMessages: [MyGameState_C_0] 1:55:5
+[2017.12.04-16.25.23:618][276]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:621][276]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:626][277]LogBlueprintUserMessages: [MyGameState_C_0] 1:56:5
+[2017.12.04-16.25.23:626][277]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:630][277]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:634][278]LogBlueprintUserMessages: [MyGameState_C_0] 1:57:5
+[2017.12.04-16.25.23:634][278]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:638][278]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:643][279]LogBlueprintUserMessages: [MyGameState_C_0] 1:58:9
+[2017.12.04-16.25.23:643][279]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:647][279]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:653][280]LogBlueprintUserMessages: [MyGameState_C_0] 1:59:20
+[2017.12.04-16.25.23:653][280]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:656][280]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:661][281]LogBlueprintUserMessages: [MyGameState_C_0] 2:0:20
+[2017.12.04-16.25.23:661][281]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:665][281]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:670][282]LogBlueprintUserMessages: [MyGameState_C_0] 2:1:24
+[2017.12.04-16.25.23:670][282]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:674][282]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:680][283]LogBlueprintUserMessages: [MyGameState_C_0] 2:2:32
+[2017.12.04-16.25.23:680][283]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:683][283]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:689][284]LogBlueprintUserMessages: [MyGameState_C_0] 2:3:37
+[2017.12.04-16.25.23:689][284]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:693][284]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:697][285]LogBlueprintUserMessages: [MyGameState_C_0] 2:4:37
+[2017.12.04-16.25.23:697][285]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:701][285]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:706][286]LogBlueprintUserMessages: [MyGameState_C_0] 2:5:40
+[2017.12.04-16.25.23:706][286]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:710][286]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:715][287]LogBlueprintUserMessages: [MyGameState_C_0] 2:6:46
+[2017.12.04-16.25.23:715][287]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:719][287]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:724][288]LogBlueprintUserMessages: [MyGameState_C_0] 2:7:51
+[2017.12.04-16.25.23:724][288]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:728][288]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:732][289]LogBlueprintUserMessages: [MyGameState_C_0] 2:8:52
+[2017.12.04-16.25.23:732][289]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:736][289]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:742][290]LogBlueprintUserMessages: [MyGameState_C_0] 2:10:4
+[2017.12.04-16.25.23:742][290]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:746][290]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:751][291]LogBlueprintUserMessages: [MyGameState_C_0] 2:11:9
+[2017.12.04-16.25.23:751][291]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:755][291]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:760][292]LogBlueprintUserMessages: [MyGameState_C_0] 2:12:9
+[2017.12.04-16.25.23:760][292]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:763][292]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:768][293]LogBlueprintUserMessages: [MyGameState_C_0] 2:13:9
+[2017.12.04-16.25.23:768][293]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:772][293]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:780][294]LogBlueprintUserMessages: [MyGameState_C_0] 2:14:20
+[2017.12.04-16.25.23:780][294]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:783][294]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:787][295]LogBlueprintUserMessages: [MyGameState_C_0] 2:15:27
+[2017.12.04-16.25.23:787][295]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:791][295]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:795][296]LogBlueprintUserMessages: [MyGameState_C_0] 2:16:27
+[2017.12.04-16.25.23:796][296]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:799][296]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:804][297]LogBlueprintUserMessages: [MyGameState_C_0] 2:17:31
+[2017.12.04-16.25.23:805][297]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:809][297]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:814][298]LogBlueprintUserMessages: [MyGameState_C_0] 2:18:37
+[2017.12.04-16.25.23:814][298]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:818][298]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:823][299]LogBlueprintUserMessages: [MyGameState_C_0] 2:19:44
+[2017.12.04-16.25.23:823][299]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:827][299]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:831][300]LogBlueprintUserMessages: [MyGameState_C_0] 2:20:44
+[2017.12.04-16.25.23:831][300]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:835][300]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:841][301]LogBlueprintUserMessages: [MyGameState_C_0] 2:21:54
+[2017.12.04-16.25.23:841][301]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:845][301]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:850][302]LogBlueprintUserMessages: [MyGameState_C_0] 2:23:2
+[2017.12.04-16.25.23:851][302]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:854][302]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:859][303]LogBlueprintUserMessages: [MyGameState_C_0] 2:24:2
+[2017.12.04-16.25.23:859][303]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:862][303]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:868][304]LogBlueprintUserMessages: [MyGameState_C_0] 2:25:8
+[2017.12.04-16.25.23:868][304]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:872][304]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:876][305]LogBlueprintUserMessages: [MyGameState_C_0] 2:26:9
+[2017.12.04-16.25.23:877][305]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:880][305]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:887][306]LogBlueprintUserMessages: [MyGameState_C_0] 2:27:22
+[2017.12.04-16.25.23:887][306]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:890][306]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:895][307]LogBlueprintUserMessages: [MyGameState_C_0] 2:28:22
+[2017.12.04-16.25.23:895][307]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:899][307]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:904][308]LogBlueprintUserMessages: [MyGameState_C_0] 2:29:28
+[2017.12.04-16.25.23:904][308]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:908][308]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:913][309]LogBlueprintUserMessages: [MyGameState_C_0] 2:30:33
+[2017.12.04-16.25.23:913][309]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:917][309]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:922][310]LogBlueprintUserMessages: [MyGameState_C_0] 2:31:38
+[2017.12.04-16.25.23:922][310]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:926][310]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:930][311]LogBlueprintUserMessages: [MyGameState_C_0] 2:32:38
+[2017.12.04-16.25.23:931][311]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:934][311]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:940][312]LogBlueprintUserMessages: [MyGameState_C_0] 2:33:45
+[2017.12.04-16.25.23:940][312]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:944][312]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:948][313]LogBlueprintUserMessages: [MyGameState_C_0] 2:34:45
+[2017.12.04-16.25.23:948][313]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:952][313]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:956][314]LogBlueprintUserMessages: [MyGameState_C_0] 2:35:45
+[2017.12.04-16.25.23:956][314]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:960][314]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:965][315]LogBlueprintUserMessages: [MyGameState_C_0] 2:36:45
+[2017.12.04-16.25.23:965][315]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:968][315]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:973][316]LogBlueprintUserMessages: [MyGameState_C_0] 2:37:45
+[2017.12.04-16.25.23:973][316]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:977][316]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:981][317]LogBlueprintUserMessages: [MyGameState_C_0] 2:38:45
+[2017.12.04-16.25.23:981][317]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:985][317]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:990][318]LogBlueprintUserMessages: [MyGameState_C_0] 2:39:45
+[2017.12.04-16.25.23:990][318]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.23:993][318]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.23:998][319]LogBlueprintUserMessages: [MyGameState_C_0] 2:40:45
+[2017.12.04-16.25.23:998][319]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:002][319]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:006][320]LogBlueprintUserMessages: [MyGameState_C_0] 2:41:45
+[2017.12.04-16.25.24:006][320]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:010][320]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:015][321]LogBlueprintUserMessages: [MyGameState_C_0] 2:42:45
+[2017.12.04-16.25.24:015][321]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:018][321]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:023][322]LogBlueprintUserMessages: [MyGameState_C_0] 2:43:45
+[2017.12.04-16.25.24:023][322]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:027][322]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:031][323]LogBlueprintUserMessages: [MyGameState_C_0] 2:44:45
+[2017.12.04-16.25.24:031][323]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:035][323]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:040][324]LogBlueprintUserMessages: [MyGameState_C_0] 2:45:46
+[2017.12.04-16.25.24:040][324]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:043][324]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:048][325]LogBlueprintUserMessages: [MyGameState_C_0] 2:46:46
+[2017.12.04-16.25.24:048][325]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:052][325]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:056][326]LogBlueprintUserMessages: [MyGameState_C_0] 2:47:46
+[2017.12.04-16.25.24:057][326]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:060][326]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:065][327]LogBlueprintUserMessages: [MyGameState_C_0] 2:48:46
+[2017.12.04-16.25.24:065][327]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:069][327]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:073][328]LogBlueprintUserMessages: [MyGameState_C_0] 2:49:46
+[2017.12.04-16.25.24:073][328]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:077][328]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:081][329]LogBlueprintUserMessages: [MyGameState_C_0] 2:50:46
+[2017.12.04-16.25.24:081][329]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:085][329]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:090][330]LogBlueprintUserMessages: [MyGameState_C_0] 2:51:46
+[2017.12.04-16.25.24:090][330]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:093][330]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:098][331]LogBlueprintUserMessages: [MyGameState_C_0] 2:52:46
+[2017.12.04-16.25.24:098][331]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:102][331]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:107][332]LogBlueprintUserMessages: [MyGameState_C_0] 2:53:46
+[2017.12.04-16.25.24:107][332]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:110][332]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:115][333]LogBlueprintUserMessages: [MyGameState_C_0] 2:54:46
+[2017.12.04-16.25.24:115][333]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:119][333]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:123][334]LogBlueprintUserMessages: [MyGameState_C_0] 2:55:46
+[2017.12.04-16.25.24:123][334]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:127][334]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:131][335]LogBlueprintUserMessages: [MyGameState_C_0] 2:56:46
+[2017.12.04-16.25.24:132][335]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:135][335]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:140][336]LogBlueprintUserMessages: [MyGameState_C_0] 2:57:46
+[2017.12.04-16.25.24:140][336]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:143][336]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:148][337]LogBlueprintUserMessages: [MyGameState_C_0] 2:58:46
+[2017.12.04-16.25.24:148][337]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:152][337]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:156][338]LogBlueprintUserMessages: [MyGameState_C_0] 2:59:46
+[2017.12.04-16.25.24:156][338]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:160][338]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:165][339]LogBlueprintUserMessages: [MyGameState_C_0] 3:0:46
+[2017.12.04-16.25.24:165][339]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:168][339]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:173][340]LogBlueprintUserMessages: [MyGameState_C_0] 3:1:46
+[2017.12.04-16.25.24:173][340]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:177][340]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:181][341]LogBlueprintUserMessages: [MyGameState_C_0] 3:2:46
+[2017.12.04-16.25.24:181][341]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:185][341]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:190][342]LogBlueprintUserMessages: [MyGameState_C_0] 3:3:46
+[2017.12.04-16.25.24:190][342]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:193][342]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:198][343]LogBlueprintUserMessages: [MyGameState_C_0] 3:4:46
+[2017.12.04-16.25.24:198][343]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:202][343]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:206][344]LogBlueprintUserMessages: [MyGameState_C_0] 3:5:46
+[2017.12.04-16.25.24:206][344]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:210][344]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:215][345]LogBlueprintUserMessages: [MyGameState_C_0] 3:6:46
+[2017.12.04-16.25.24:215][345]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:218][345]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:223][346]LogBlueprintUserMessages: [MyGameState_C_0] 3:7:46
+[2017.12.04-16.25.24:223][346]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:226][346]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:231][347]LogBlueprintUserMessages: [MyGameState_C_0] 3:8:46
+[2017.12.04-16.25.24:232][347]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:235][347]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:240][348]LogBlueprintUserMessages: [MyGameState_C_0] 3:9:46
+[2017.12.04-16.25.24:240][348]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:243][348]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:248][349]LogBlueprintUserMessages: [MyGameState_C_0] 3:10:46
+[2017.12.04-16.25.24:248][349]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:252][349]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:256][350]LogBlueprintUserMessages: [MyGameState_C_0] 3:11:46
+[2017.12.04-16.25.24:256][350]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:260][350]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:265][351]LogBlueprintUserMessages: [MyGameState_C_0] 3:12:46
+[2017.12.04-16.25.24:265][351]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:268][351]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:273][352]LogBlueprintUserMessages: [MyGameState_C_0] 3:13:46
+[2017.12.04-16.25.24:273][352]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:277][352]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:281][353]LogBlueprintUserMessages: [MyGameState_C_0] 3:14:46
+[2017.12.04-16.25.24:281][353]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:285][353]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:290][354]LogBlueprintUserMessages: [MyGameState_C_0] 3:15:46
+[2017.12.04-16.25.24:290][354]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:293][354]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:298][355]LogBlueprintUserMessages: [MyGameState_C_0] 3:16:46
+[2017.12.04-16.25.24:298][355]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:302][355]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:306][356]LogBlueprintUserMessages: [MyGameState_C_0] 3:17:46
+[2017.12.04-16.25.24:306][356]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:310][356]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:315][357]LogBlueprintUserMessages: [MyGameState_C_0] 3:18:46
+[2017.12.04-16.25.24:315][357]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:318][357]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:323][358]LogBlueprintUserMessages: [MyGameState_C_0] 3:19:46
+[2017.12.04-16.25.24:323][358]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:327][358]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:331][359]LogBlueprintUserMessages: [MyGameState_C_0] 3:20:46
+[2017.12.04-16.25.24:331][359]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:335][359]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:340][360]LogBlueprintUserMessages: [MyGameState_C_0] 3:21:46
+[2017.12.04-16.25.24:340][360]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:343][360]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:348][361]LogBlueprintUserMessages: [MyGameState_C_0] 3:22:46
+[2017.12.04-16.25.24:348][361]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:352][361]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:356][362]LogBlueprintUserMessages: [MyGameState_C_0] 3:23:46
+[2017.12.04-16.25.24:356][362]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:360][362]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:365][363]LogBlueprintUserMessages: [MyGameState_C_0] 3:24:46
+[2017.12.04-16.25.24:365][363]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:368][363]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:373][364]LogBlueprintUserMessages: [MyGameState_C_0] 3:25:46
+[2017.12.04-16.25.24:373][364]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:377][364]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:381][365]LogBlueprintUserMessages: [MyGameState_C_0] 3:26:46
+[2017.12.04-16.25.24:381][365]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:385][365]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:390][366]LogBlueprintUserMessages: [MyGameState_C_0] 3:27:46
+[2017.12.04-16.25.24:390][366]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:393][366]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:398][367]LogBlueprintUserMessages: [MyGameState_C_0] 3:28:46
+[2017.12.04-16.25.24:398][367]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:402][367]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:406][368]LogBlueprintUserMessages: [MyGameState_C_0] 3:29:46
+[2017.12.04-16.25.24:406][368]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:410][368]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:415][369]LogBlueprintUserMessages: [MyGameState_C_0] 3:30:46
+[2017.12.04-16.25.24:415][369]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:418][369]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:423][370]LogBlueprintUserMessages: [MyGameState_C_0] 3:31:46
+[2017.12.04-16.25.24:423][370]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:427][370]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:432][371]LogBlueprintUserMessages: [MyGameState_C_0] 3:32:46
+[2017.12.04-16.25.24:432][371]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:435][371]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:440][372]LogBlueprintUserMessages: [MyGameState_C_0] 3:33:46
+[2017.12.04-16.25.24:440][372]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:443][372]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:448][373]LogBlueprintUserMessages: [MyGameState_C_0] 3:34:46
+[2017.12.04-16.25.24:448][373]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:452][373]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:456][374]LogBlueprintUserMessages: [MyGameState_C_0] 3:35:46
+[2017.12.04-16.25.24:456][374]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:460][374]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:465][375]LogBlueprintUserMessages: [MyGameState_C_0] 3:36:46
+[2017.12.04-16.25.24:465][375]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:468][375]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:473][376]LogBlueprintUserMessages: [MyGameState_C_0] 3:37:46
+[2017.12.04-16.25.24:473][376]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:477][376]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:482][377]LogBlueprintUserMessages: [MyGameState_C_0] 3:38:46
+[2017.12.04-16.25.24:482][377]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:485][377]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:490][378]LogBlueprintUserMessages: [MyGameState_C_0] 3:39:46
+[2017.12.04-16.25.24:490][378]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:494][378]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:498][379]LogBlueprintUserMessages: [MyGameState_C_0] 3:40:46
+[2017.12.04-16.25.24:498][379]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:502][379]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:507][380]LogBlueprintUserMessages: [MyGameState_C_0] 3:41:46
+[2017.12.04-16.25.24:507][380]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:510][380]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:515][381]LogBlueprintUserMessages: [MyGameState_C_0] 3:42:46
+[2017.12.04-16.25.24:515][381]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:519][381]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:523][382]LogBlueprintUserMessages: [MyGameState_C_0] 3:43:46
+[2017.12.04-16.25.24:523][382]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:527][382]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:532][383]LogBlueprintUserMessages: [MyGameState_C_0] 3:44:46
+[2017.12.04-16.25.24:532][383]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:535][383]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:540][384]LogBlueprintUserMessages: [MyGameState_C_0] 3:45:46
+[2017.12.04-16.25.24:540][384]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:543][384]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:548][385]LogBlueprintUserMessages: [MyGameState_C_0] 3:46:46
+[2017.12.04-16.25.24:548][385]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:552][385]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:557][386]LogBlueprintUserMessages: [MyGameState_C_0] 3:47:46
+[2017.12.04-16.25.24:557][386]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:560][386]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:565][387]LogBlueprintUserMessages: [MyGameState_C_0] 3:48:46
+[2017.12.04-16.25.24:565][387]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:569][387]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:573][388]LogBlueprintUserMessages: [MyGameState_C_0] 3:49:46
+[2017.12.04-16.25.24:573][388]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:577][388]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:581][389]LogBlueprintUserMessages: [MyGameState_C_0] 3:50:46
+[2017.12.04-16.25.24:582][389]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:585][389]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:590][390]LogBlueprintUserMessages: [MyGameState_C_0] 3:51:46
+[2017.12.04-16.25.24:590][390]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:593][390]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:598][391]LogBlueprintUserMessages: [MyGameState_C_0] 3:52:46
+[2017.12.04-16.25.24:598][391]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:602][391]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:606][392]LogBlueprintUserMessages: [MyGameState_C_0] 3:53:46
+[2017.12.04-16.25.24:607][392]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:610][392]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:615][393]LogBlueprintUserMessages: [MyGameState_C_0] 3:54:46
+[2017.12.04-16.25.24:615][393]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:618][393]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:623][394]LogBlueprintUserMessages: [MyGameState_C_0] 3:55:46
+[2017.12.04-16.25.24:623][394]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:627][394]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:631][395]LogBlueprintUserMessages: [MyGameState_C_0] 3:56:46
+[2017.12.04-16.25.24:632][395]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:635][395]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:640][396]LogBlueprintUserMessages: [MyGameState_C_0] 3:57:46
+[2017.12.04-16.25.24:640][396]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:643][396]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:648][397]LogBlueprintUserMessages: [MyGameState_C_0] 3:58:46
+[2017.12.04-16.25.24:648][397]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:652][397]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:656][398]LogBlueprintUserMessages: [MyGameState_C_0] 3:59:46
+[2017.12.04-16.25.24:657][398]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:660][398]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:665][399]LogBlueprintUserMessages: [MyGameState_C_0] 4:0:46
+[2017.12.04-16.25.24:665][399]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:668][399]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:673][400]LogBlueprintUserMessages: [MyGameState_C_0] 4:1:46
+[2017.12.04-16.25.24:673][400]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:677][400]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:681][401]LogBlueprintUserMessages: [MyGameState_C_0] 4:2:46
+[2017.12.04-16.25.24:681][401]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:685][401]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:690][402]LogBlueprintUserMessages: [MyGameState_C_0] 4:3:46
+[2017.12.04-16.25.24:690][402]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:693][402]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:698][403]LogBlueprintUserMessages: [MyGameState_C_0] 4:4:46
+[2017.12.04-16.25.24:698][403]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:702][403]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:707][404]LogBlueprintUserMessages: [MyGameState_C_0] 4:5:46
+[2017.12.04-16.25.24:707][404]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:710][404]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:715][405]LogBlueprintUserMessages: [MyGameState_C_0] 4:6:46
+[2017.12.04-16.25.24:715][405]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:719][405]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:723][406]LogBlueprintUserMessages: [MyGameState_C_0] 4:7:46
+[2017.12.04-16.25.24:723][406]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:727][406]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:732][407]LogBlueprintUserMessages: [MyGameState_C_0] 4:8:46
+[2017.12.04-16.25.24:732][407]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:735][407]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:740][408]LogBlueprintUserMessages: [MyGameState_C_0] 4:9:46
+[2017.12.04-16.25.24:740][408]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:744][408]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:748][409]LogBlueprintUserMessages: [MyGameState_C_0] 4:10:46
+[2017.12.04-16.25.24:748][409]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:752][409]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:757][410]LogBlueprintUserMessages: [MyGameState_C_0] 4:11:46
+[2017.12.04-16.25.24:757][410]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:760][410]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:765][411]LogBlueprintUserMessages: [MyGameState_C_0] 4:12:46
+[2017.12.04-16.25.24:765][411]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:769][411]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:773][412]LogBlueprintUserMessages: [MyGameState_C_0] 4:13:46
+[2017.12.04-16.25.24:773][412]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:777][412]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:781][413]LogBlueprintUserMessages: [MyGameState_C_0] 4:14:46
+[2017.12.04-16.25.24:782][413]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:785][413]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:790][414]LogBlueprintUserMessages: [MyGameState_C_0] 4:15:46
+[2017.12.04-16.25.24:790][414]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:794][414]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:798][415]LogBlueprintUserMessages: [MyGameState_C_0] 4:16:46
+[2017.12.04-16.25.24:798][415]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:802][415]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:806][416]LogBlueprintUserMessages: [MyGameState_C_0] 4:17:46
+[2017.12.04-16.25.24:807][416]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:810][416]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:815][417]LogBlueprintUserMessages: [MyGameState_C_0] 4:18:46
+[2017.12.04-16.25.24:815][417]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:819][417]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:823][418]LogBlueprintUserMessages: [MyGameState_C_0] 4:19:46
+[2017.12.04-16.25.24:823][418]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:827][418]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:832][419]LogBlueprintUserMessages: [MyGameState_C_0] 4:20:46
+[2017.12.04-16.25.24:832][419]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:835][419]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:840][420]LogBlueprintUserMessages: [MyGameState_C_0] 4:21:46
+[2017.12.04-16.25.24:840][420]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:843][420]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:848][421]LogBlueprintUserMessages: [MyGameState_C_0] 4:22:46
+[2017.12.04-16.25.24:848][421]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:852][421]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:856][422]LogBlueprintUserMessages: [MyGameState_C_0] 4:23:46
+[2017.12.04-16.25.24:857][422]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:860][422]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:865][423]LogBlueprintUserMessages: [MyGameState_C_0] 4:24:46
+[2017.12.04-16.25.24:865][423]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:868][423]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:873][424]LogBlueprintUserMessages: [MyGameState_C_0] 4:25:46
+[2017.12.04-16.25.24:873][424]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:877][424]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:881][425]LogBlueprintUserMessages: [MyGameState_C_0] 4:26:46
+[2017.12.04-16.25.24:882][425]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:885][425]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:890][426]LogBlueprintUserMessages: [MyGameState_C_0] 4:27:46
+[2017.12.04-16.25.24:890][426]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:893][426]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:898][427]LogBlueprintUserMessages: [MyGameState_C_0] 4:28:46
+[2017.12.04-16.25.24:898][427]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:902][427]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:906][428]LogBlueprintUserMessages: [MyGameState_C_0] 4:29:46
+[2017.12.04-16.25.24:907][428]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:910][428]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:915][429]LogBlueprintUserMessages: [MyGameState_C_0] 4:30:46
+[2017.12.04-16.25.24:915][429]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:918][429]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:923][430]LogBlueprintUserMessages: [MyGameState_C_0] 4:31:46
+[2017.12.04-16.25.24:923][430]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:927][430]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:931][431]LogBlueprintUserMessages: [MyGameState_C_0] 4:32:46
+[2017.12.04-16.25.24:932][431]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:935][431]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:940][432]LogBlueprintUserMessages: [MyGameState_C_0] 4:33:46
+[2017.12.04-16.25.24:940][432]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:943][432]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:948][433]LogBlueprintUserMessages: [MyGameState_C_0] 4:34:46
+[2017.12.04-16.25.24:948][433]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:952][433]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:956][434]LogBlueprintUserMessages: [MyGameState_C_0] 4:35:47
+[2017.12.04-16.25.24:956][434]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:960][434]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:965][435]LogBlueprintUserMessages: [MyGameState_C_0] 4:36:47
+[2017.12.04-16.25.24:965][435]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:968][435]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:973][436]LogBlueprintUserMessages: [MyGameState_C_0] 4:37:47
+[2017.12.04-16.25.24:973][436]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:977][436]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:981][437]LogBlueprintUserMessages: [MyGameState_C_0] 4:38:47
+[2017.12.04-16.25.24:982][437]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:985][437]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:990][438]LogBlueprintUserMessages: [MyGameState_C_0] 4:39:47
+[2017.12.04-16.25.24:990][438]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.24:993][438]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.24:998][439]LogBlueprintUserMessages: [MyGameState_C_0] 4:40:47
+[2017.12.04-16.25.24:998][439]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:002][439]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:006][440]LogBlueprintUserMessages: [MyGameState_C_0] 4:41:47
+[2017.12.04-16.25.25:007][440]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:010][440]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:015][441]LogBlueprintUserMessages: [MyGameState_C_0] 4:42:47
+[2017.12.04-16.25.25:015][441]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:018][441]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:023][442]LogBlueprintUserMessages: [MyGameState_C_0] 4:43:47
+[2017.12.04-16.25.25:023][442]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:027][442]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:031][443]LogBlueprintUserMessages: [MyGameState_C_0] 4:44:47
+[2017.12.04-16.25.25:032][443]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:035][443]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:040][444]LogBlueprintUserMessages: [MyGameState_C_0] 4:45:47
+[2017.12.04-16.25.25:040][444]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:043][444]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:048][445]LogBlueprintUserMessages: [MyGameState_C_0] 4:46:47
+[2017.12.04-16.25.25:048][445]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:052][445]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:057][446]LogBlueprintUserMessages: [MyGameState_C_0] 4:47:47
+[2017.12.04-16.25.25:057][446]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:060][446]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:065][447]LogBlueprintUserMessages: [MyGameState_C_0] 4:48:47
+[2017.12.04-16.25.25:065][447]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:069][447]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:073][448]LogBlueprintUserMessages: [MyGameState_C_0] 4:49:47
+[2017.12.04-16.25.25:073][448]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:077][448]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:082][449]LogBlueprintUserMessages: [MyGameState_C_0] 4:50:47
+[2017.12.04-16.25.25:082][449]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:085][449]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:090][450]LogBlueprintUserMessages: [MyGameState_C_0] 4:51:47
+[2017.12.04-16.25.25:090][450]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:094][450]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:098][451]LogBlueprintUserMessages: [MyGameState_C_0] 4:52:47
+[2017.12.04-16.25.25:098][451]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:102][451]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:107][452]LogBlueprintUserMessages: [MyGameState_C_0] 4:53:47
+[2017.12.04-16.25.25:107][452]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:110][452]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:115][453]LogBlueprintUserMessages: [MyGameState_C_0] 4:54:47
+[2017.12.04-16.25.25:115][453]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:118][453]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:123][454]LogBlueprintUserMessages: [MyGameState_C_0] 4:55:47
+[2017.12.04-16.25.25:123][454]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:127][454]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:132][455]LogBlueprintUserMessages: [MyGameState_C_0] 4:56:47
+[2017.12.04-16.25.25:132][455]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:135][455]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:140][456]LogBlueprintUserMessages: [MyGameState_C_0] 4:57:47
+[2017.12.04-16.25.25:140][456]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:143][456]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:148][457]LogBlueprintUserMessages: [MyGameState_C_0] 4:58:47
+[2017.12.04-16.25.25:148][457]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:152][457]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:157][458]LogBlueprintUserMessages: [MyGameState_C_0] 4:59:47
+[2017.12.04-16.25.25:157][458]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:160][458]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:165][459]LogBlueprintUserMessages: [MyGameState_C_0] 5:0:47
+[2017.12.04-16.25.25:165][459]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:169][459]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:173][460]LogBlueprintUserMessages: [MyGameState_C_0] 5:1:47
+[2017.12.04-16.25.25:173][460]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:177][460]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:182][461]LogBlueprintUserMessages: [MyGameState_C_0] 5:2:47
+[2017.12.04-16.25.25:182][461]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:185][461]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:190][462]LogBlueprintUserMessages: [MyGameState_C_0] 5:3:47
+[2017.12.04-16.25.25:190][462]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:193][462]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:198][463]LogBlueprintUserMessages: [MyGameState_C_0] 5:4:47
+[2017.12.04-16.25.25:198][463]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:202][463]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:207][464]LogBlueprintUserMessages: [MyGameState_C_0] 5:5:47
+[2017.12.04-16.25.25:207][464]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:210][464]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:215][465]LogBlueprintUserMessages: [MyGameState_C_0] 5:6:47
+[2017.12.04-16.25.25:215][465]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:218][465]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:223][466]LogBlueprintUserMessages: [MyGameState_C_0] 5:7:47
+[2017.12.04-16.25.25:223][466]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:227][466]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:232][467]LogBlueprintUserMessages: [MyGameState_C_0] 5:8:47
+[2017.12.04-16.25.25:232][467]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:236][467]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:240][468]LogBlueprintUserMessages: [MyGameState_C_0] 5:9:47
+[2017.12.04-16.25.25:240][468]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:244][468]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:248][469]LogBlueprintUserMessages: [MyGameState_C_0] 5:10:47
+[2017.12.04-16.25.25:248][469]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:252][469]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:257][470]LogBlueprintUserMessages: [MyGameState_C_0] 5:11:47
+[2017.12.04-16.25.25:257][470]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:260][470]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:265][471]LogBlueprintUserMessages: [MyGameState_C_0] 5:12:47
+[2017.12.04-16.25.25:265][471]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:268][471]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:273][472]LogBlueprintUserMessages: [MyGameState_C_0] 5:13:47
+[2017.12.04-16.25.25:273][472]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:277][472]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:282][473]LogBlueprintUserMessages: [MyGameState_C_0] 5:14:47
+[2017.12.04-16.25.25:282][473]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:285][473]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:290][474]LogBlueprintUserMessages: [MyGameState_C_0] 5:15:47
+[2017.12.04-16.25.25:290][474]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:293][474]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:298][475]LogBlueprintUserMessages: [MyGameState_C_0] 5:16:47
+[2017.12.04-16.25.25:298][475]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:302][475]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:307][476]LogBlueprintUserMessages: [MyGameState_C_0] 5:17:47
+[2017.12.04-16.25.25:307][476]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:310][476]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:315][477]LogBlueprintUserMessages: [MyGameState_C_0] 5:18:47
+[2017.12.04-16.25.25:315][477]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:318][477]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:323][478]LogBlueprintUserMessages: [MyGameState_C_0] 5:19:47
+[2017.12.04-16.25.25:323][478]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:327][478]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:331][479]LogBlueprintUserMessages: [MyGameState_C_0] 5:20:47
+[2017.12.04-16.25.25:332][479]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:335][479]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:340][480]LogBlueprintUserMessages: [MyGameState_C_0] 5:21:47
+[2017.12.04-16.25.25:340][480]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:343][480]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:348][481]LogBlueprintUserMessages: [MyGameState_C_0] 5:22:47
+[2017.12.04-16.25.25:348][481]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:352][481]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:356][482]LogBlueprintUserMessages: [MyGameState_C_0] 5:23:47
+[2017.12.04-16.25.25:357][482]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:360][482]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:365][483]LogBlueprintUserMessages: [MyGameState_C_0] 5:24:47
+[2017.12.04-16.25.25:365][483]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:369][483]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:373][484]LogBlueprintUserMessages: [MyGameState_C_0] 5:25:47
+[2017.12.04-16.25.25:373][484]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:377][484]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:381][485]LogBlueprintUserMessages: [MyGameState_C_0] 5:26:47
+[2017.12.04-16.25.25:382][485]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:385][485]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:390][486]LogBlueprintUserMessages: [MyGameState_C_0] 5:27:47
+[2017.12.04-16.25.25:390][486]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:393][486]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:398][487]LogBlueprintUserMessages: [MyGameState_C_0] 5:28:47
+[2017.12.04-16.25.25:398][487]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:402][487]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:407][488]LogBlueprintUserMessages: [MyGameState_C_0] 5:29:47
+[2017.12.04-16.25.25:407][488]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:410][488]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:415][489]LogBlueprintUserMessages: [MyGameState_C_0] 5:30:47
+[2017.12.04-16.25.25:415][489]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:419][489]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:423][490]LogBlueprintUserMessages: [MyGameState_C_0] 5:31:47
+[2017.12.04-16.25.25:423][490]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:427][490]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:432][491]LogBlueprintUserMessages: [MyGameState_C_0] 5:32:47
+[2017.12.04-16.25.25:432][491]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:435][491]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:440][492]LogBlueprintUserMessages: [MyGameState_C_0] 5:33:47
+[2017.12.04-16.25.25:440][492]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:444][492]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:448][493]LogBlueprintUserMessages: [MyGameState_C_0] 5:34:47
+[2017.12.04-16.25.25:448][493]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:452][493]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:457][494]LogBlueprintUserMessages: [MyGameState_C_0] 5:35:47
+[2017.12.04-16.25.25:457][494]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:460][494]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:465][495]LogBlueprintUserMessages: [MyGameState_C_0] 5:36:47
+[2017.12.04-16.25.25:465][495]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:469][495]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:473][496]LogBlueprintUserMessages: [MyGameState_C_0] 5:37:47
+[2017.12.04-16.25.25:473][496]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:477][496]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:482][497]LogBlueprintUserMessages: [MyGameState_C_0] 5:38:47
+[2017.12.04-16.25.25:482][497]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:485][497]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:490][498]LogBlueprintUserMessages: [MyGameState_C_0] 5:39:47
+[2017.12.04-16.25.25:490][498]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:494][498]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:498][499]LogBlueprintUserMessages: [MyGameState_C_0] 5:40:47
+[2017.12.04-16.25.25:498][499]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:502][499]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:507][500]LogBlueprintUserMessages: [MyGameState_C_0] 5:41:47
+[2017.12.04-16.25.25:507][500]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:510][500]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:515][501]LogBlueprintUserMessages: [MyGameState_C_0] 5:42:47
+[2017.12.04-16.25.25:515][501]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:519][501]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:523][502]LogBlueprintUserMessages: [MyGameState_C_0] 5:43:47
+[2017.12.04-16.25.25:523][502]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:527][502]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:532][503]LogBlueprintUserMessages: [MyGameState_C_0] 5:44:47
+[2017.12.04-16.25.25:532][503]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:536][503]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:540][504]LogBlueprintUserMessages: [MyGameState_C_0] 5:45:47
+[2017.12.04-16.25.25:540][504]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:544][504]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:548][505]LogBlueprintUserMessages: [MyGameState_C_0] 5:46:47
+[2017.12.04-16.25.25:548][505]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:552][505]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:557][506]LogBlueprintUserMessages: [MyGameState_C_0] 5:47:47
+[2017.12.04-16.25.25:557][506]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:560][506]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:565][507]LogBlueprintUserMessages: [MyGameState_C_0] 5:48:47
+[2017.12.04-16.25.25:565][507]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:569][507]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:573][508]LogBlueprintUserMessages: [MyGameState_C_0] 5:49:47
+[2017.12.04-16.25.25:573][508]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:577][508]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:582][509]LogBlueprintUserMessages: [MyGameState_C_0] 5:50:47
+[2017.12.04-16.25.25:582][509]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:585][509]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:590][510]LogBlueprintUserMessages: [MyGameState_C_0] 5:51:47
+[2017.12.04-16.25.25:590][510]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:594][510]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'GameTime' of length 0 in '/Game/RTS_tutorial/HUDs/MainUI_HUD.MainUI_HUD_C'!
+[2017.12.04-16.25.25:598][511]LogBlueprintUserMessages: [MyGameState_C_0] 5:52:47
+[2017.12.04-16.25.25:598][511]LogBlueprintUserMessages: [MyGameState_C_0] 1/1/2015
+[2017.12.04-16.25.25:600][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.04-16.25.25:638][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map' with GeneratedClass '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map_C' with ClassGeneratedBy '/Game/RTS_tutorial/Maps/RTS_test_map.RTS_test_map:PersistentLevel.RTS_test_map'
+[2017.12.04-16.25.39:716][940]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.04-16.25.40:166][940]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.12.04-16.25.41:442][940]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.04-16.25.41:457][940]LogSlate: Took 0.015099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SalwaRTS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A4A669F9-C661-4344-B207-22A5C89F9760}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SalwaRTS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SalwaRTSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0244EE72-2F31-44D6-A6B6-67BD11CE9A1B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SalwaRTS">
+      <UniqueIdentifier>{E213D3F7-12D3-408C-9A1C-46FD0318DD0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SalwaRTS\HealthComponent.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\HealthComponent.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyActor.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyActor.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyCharacter.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyCharacter.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyGameInstance.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyGameInstance.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyGameMode.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyGameMode.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyGameState.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyGameState.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyHUD.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyHUD.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyPlayerController.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyPlayerController.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\MyPlayerState.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\MyPlayerState.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SalwaRTS\SalwaRTS.Build.cs">
+      <Filter>Source\SalwaRTS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SalwaRTS\SalwaRTS.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\SalwaRTS.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\Weapon.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\Weapon.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SalwaRTS\WeaponComponent.cpp">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SalwaRTS\WeaponComponent.h">
+      <Filter>Source\SalwaRTS</Filter>
+    </ClInclude>
+    <Filter Include="Source\SalwaRTS\Private">
+      <UniqueIdentifier>{7FE7D780-9770-4FCC-B0EB-C8299DCDA2B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\PlayerCameraPawn.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SalwaRTS\Public">
+      <UniqueIdentifier>{32914D32-1A54-42E8-951F-1CCD8D6F8FBD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\PlayerCameraPawn.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\PlayerCameraCharacter.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\UnitsSelectionComponent.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\ManaComponent.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\InputActionsComponent.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\Item.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\PlayerCameraCharacter.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\UnitsSelectionComponent.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\ManaComponent.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\InputActionsComponent.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\Item.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
