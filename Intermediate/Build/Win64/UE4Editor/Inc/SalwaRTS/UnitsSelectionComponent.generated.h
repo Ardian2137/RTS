@@ -36,15 +36,6 @@ static inline void FRebuildUnitsGridPanel_DelegateWrapper(const FMulticastScript
 
 #define RTS_Source_SalwaRTS_Public_UnitsSelectionComponent_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSetCurrentlySelectedUnits) \
-	{ \
-		P_GET_TARRAY(AMyCharacter*,Z_Param_NewSelectedUnits); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetCurrentlySelectedUnits(Z_Param_NewSelectedUnits); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execSelectAllUnits) \
 	{ \
 		P_FINISH; \
@@ -53,54 +44,27 @@ static inline void FRebuildUnitsGridPanel_DelegateWrapper(const FMulticastScript
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSelectControlGroup) \
+	DECLARE_FUNCTION(execUseControlGroup) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SelectControlGroup(Z_Param_GroupIndex); \
+		P_THIS->UseControlGroup(Z_Param_GroupIndex); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAddSelectedUnitsToControlGroup) \
+	DECLARE_FUNCTION(execSetCurrentlySelectedUnits) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
+		P_GET_TARRAY(AMyCharacter*,Z_Param_NewSelectedUnits); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddSelectedUnitsToControlGroup(Z_Param_GroupIndex); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execRemoveSelectedUnitsToControlGroup) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->RemoveSelectedUnitsToControlGroup(Z_Param_GroupIndex); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCreateControlGroupFromSelectedUnits) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CreateControlGroupFromSelectedUnits(Z_Param_GroupIndex); \
+		P_THIS->SetCurrentlySelectedUnits(Z_Param_NewSelectedUnits); \
 		P_NATIVE_END; \
 	}
 
 
 #define RTS_Source_SalwaRTS_Public_UnitsSelectionComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSetCurrentlySelectedUnits) \
-	{ \
-		P_GET_TARRAY(AMyCharacter*,Z_Param_NewSelectedUnits); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetCurrentlySelectedUnits(Z_Param_NewSelectedUnits); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execSelectAllUnits) \
 	{ \
 		P_FINISH; \
@@ -109,39 +73,21 @@ static inline void FRebuildUnitsGridPanel_DelegateWrapper(const FMulticastScript
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSelectControlGroup) \
+	DECLARE_FUNCTION(execUseControlGroup) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SelectControlGroup(Z_Param_GroupIndex); \
+		P_THIS->UseControlGroup(Z_Param_GroupIndex); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAddSelectedUnitsToControlGroup) \
+	DECLARE_FUNCTION(execSetCurrentlySelectedUnits) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
+		P_GET_TARRAY(AMyCharacter*,Z_Param_NewSelectedUnits); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddSelectedUnitsToControlGroup(Z_Param_GroupIndex); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execRemoveSelectedUnitsToControlGroup) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->RemoveSelectedUnitsToControlGroup(Z_Param_GroupIndex); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCreateControlGroupFromSelectedUnits) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CreateControlGroupFromSelectedUnits(Z_Param_GroupIndex); \
+		P_THIS->SetCurrentlySelectedUnits(Z_Param_NewSelectedUnits); \
 		P_NATIVE_END; \
 	}
 

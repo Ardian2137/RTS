@@ -29,8 +29,8 @@ void EmptyLinkFunctionForGeneratedCodeSalwaRTS_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/SalwaRTS",
 				PKG_CompiledIn | 0x00000000,
-				0x795CB159,
-				0xBE69C6F5,
+				0xCEE847D7,
+				0x430911C3,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
