@@ -29,14 +29,14 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
-	bool bIsShiftHolded;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	bool bIsShiftHeld;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
-	bool bIsCtrlHolded;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	bool bIsCtrlHeld;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
-	bool bIsAltHolded;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	bool bIsAltHeld;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
 	TArray<AMyCharacter*> AllControlledUnits;
@@ -45,50 +45,55 @@ public:
 	TArray<AMyCharacter*> CurrentlySelectedUnits;
 
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup1;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup2;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup3;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup4;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup5;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup6;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup7;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup8;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup9;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Units)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Units)
 	TArray<AMyCharacter*> ControlGroup0;
 
 	UPROPERTY(BlueprintAssignable, Category = Stats)
 	FRebuildUnitsGridPanel RebuildUnitsGridPanel;
 
-	UPROPERTY(BlueprintAssignable, Category = Stats)
+	UPROPERTY(BlueprintAssignable, BlueprintCallable, Category = Stats)
 	FOnControlGroupModification OnControlGroupModification;
 
 	UFUNCTION(BlueprintCallable, Category = Units)
 	void SetCurrentlySelectedUnits(TArray<AMyCharacter*> NewSelectedUnits);
 
 	UFUNCTION(BlueprintCallable, Category = Units)
+	void RefteshControlGroup(int32 GroupIndex, AMyCharacter* DeadUnit);
+
+	UFUNCTION(BlueprintCallable, Category = Units)
 	void UseControlGroup(int32 GroupIndex);
 
 	UFUNCTION(BlueprintCallable, Category = Units)
 	void SelectAllUnits();
+
+
 
 
 	void ShiftPressed();
@@ -111,9 +116,7 @@ public:
 	void UseControlGroup0();
 
 private:
-	TArray<AMyCharacter*>  Merge2UnitsGroup(TArray<AMyCharacter*> FirstGroup, TArray<AMyCharacter*> SecondGroup);
 	TArray<AMyCharacter*>  Separate2UnitsGroup(TArray<AMyCharacter*> FirstGroup, TArray<AMyCharacter*> SecondGroup);
-
-
+	TArray<AMyCharacter*>  Merge2UnitsGroup(TArray<AMyCharacter*> FirstGroup, TArray<AMyCharacter*> SecondGroup);
 	
 };

@@ -19,5 +19,5 @@ class SALWARTS_API AMyGameMode : public AGameMode
 
 public:
 
-	
+
 };

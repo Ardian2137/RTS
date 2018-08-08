@@ -10,6 +10,7 @@ AWeapon::AWeapon()
 	PrimaryActorTick.bCanEverTick = true;
 	Range = 0.0f;
 	bIsTwoHanded = false;
+	WeaponType = EWeaponType::Type::None;
 }
 
 // Called when the game starts or when spawned
@@ -24,5 +25,10 @@ void AWeapon::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+bool AWeapon::IsMelee()
+{
+	return WeaponType == EWeaponType::Type::Axe || WeaponType == EWeaponType::Type::Sword || WeaponType == EWeaponType::Type::Mace;
 }
 

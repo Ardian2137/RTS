@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 	SALWARTS_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 	SALWARTS_API UClass* Z_Construct_UClass_AWeapon();
 	SALWARTS_API UClass* Z_Construct_UClass_AItem();
+	SALWARTS_API UEnum* Z_Construct_UEnum_SalwaRTS_EDamageType();
 // End Cross Module References
 	static UEnum* EWeaponType_StaticEnum()
 	{
@@ -29,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EWeaponType(EWeaponType_StaticEnum, TEXT("/Script/SalwaRTS"), TEXT("EWeaponType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SalwaRTS_EWeaponType_CRC() { return 583507779U; }
+	uint32 Get_Z_Construct_UEnum_SalwaRTS_EWeaponType_CRC() { return 2893320056U; }
 	UEnum* Z_Construct_UEnum_SalwaRTS_EWeaponType()
 	{
 #if WITH_HOT_RELOAD
@@ -41,12 +42,13 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 		if (!ReturnEnum)
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
-				{ "Sword", (int64)Sword },
-				{ "Axe", (int64)Axe },
-				{ "Shield", (int64)Shield },
-				{ "Mace", (int64)Mace },
-				{ "Bow", (int64)Bow },
-				{ "Crossbow", (int64)Crossbow },
+				{ "EWeaponType::Sword", (int64)EWeaponType::Sword },
+				{ "EWeaponType::Axe", (int64)EWeaponType::Axe },
+				{ "EWeaponType::Shield", (int64)EWeaponType::Shield },
+				{ "EWeaponType::Mace", (int64)EWeaponType::Mace },
+				{ "EWeaponType::Bow", (int64)EWeaponType::Bow },
+				{ "EWeaponType::Crossbow", (int64)EWeaponType::Crossbow },
+				{ "EWeaponType::None", (int64)EWeaponType::None },
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
@@ -59,8 +61,8 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 				"EWeaponType",
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
-				(uint8)UEnum::ECppForm::Regular,
-				"EWeaponType",
+				(uint8)UEnum::ECppForm::Namespaced,
+				"EWeaponType::Type",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
@@ -92,6 +94,13 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackSpeed_MetaData[] = {
+				{ "Category", "Stats" },
+				{ "ModuleRelativePath", "Weapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_AttackSpeed = { UE4CodeGen_Private::EPropertyClass::Int, "AttackSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000015, 1, nullptr, STRUCT_OFFSET(AWeapon, AttackSpeed), METADATA_PARAMS(NewProp_AttackSpeed_MetaData, ARRAY_COUNT(NewProp_AttackSpeed_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxDamage_MetaData[] = {
 				{ "Category", "Stats" },
 				{ "ModuleRelativePath", "Weapon.h" },
@@ -120,11 +129,28 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Range = { UE4CodeGen_Private::EPropertyClass::Float, "Range", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000015, 1, nullptr, STRUCT_OFFSET(AWeapon, Range), METADATA_PARAMS(NewProp_Range_MetaData, ARRAY_COUNT(NewProp_Range_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageType_MetaData[] = {
+				{ "Category", "Stats" },
+				{ "ModuleRelativePath", "Weapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FBytePropertyParams NewProp_DamageType = { UE4CodeGen_Private::EPropertyClass::Byte, "DamageType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000015, 1, nullptr, STRUCT_OFFSET(AWeapon, DamageType), Z_Construct_UEnum_SalwaRTS_EDamageType, METADATA_PARAMS(NewProp_DamageType_MetaData, ARRAY_COUNT(NewProp_DamageType_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponType_MetaData[] = {
+				{ "Category", "Stats" },
+				{ "ModuleRelativePath", "Weapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FBytePropertyParams NewProp_WeaponType = { UE4CodeGen_Private::EPropertyClass::Byte, "WeaponType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000015, 1, nullptr, STRUCT_OFFSET(AWeapon, WeaponType), Z_Construct_UEnum_SalwaRTS_EWeaponType, METADATA_PARAMS(NewProp_WeaponType_MetaData, ARRAY_COUNT(NewProp_WeaponType_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxDamage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinDamage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bIsTwoHanded,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Range,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageType,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_WeaponType,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AWeapon>::IsAbstract,
@@ -144,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWeapon, 2552278685);
+	IMPLEMENT_CLASS(AWeapon, 1849215863);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AWeapon(Z_Construct_UClass_AWeapon, &AWeapon::StaticClass, TEXT("/Script/SalwaRTS"), TEXT("AWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

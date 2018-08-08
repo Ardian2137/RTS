@@ -136,6 +136,15 @@
     <ClInclude Include="..\..\Source\SalwaRTS\Public\Item.h">
       <Filter>Source\SalwaRTS\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\BP_WeaponComponent.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\MyAIController.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SalwaRTS\Public\Enums.h">
+      <Filter>Source\SalwaRTS\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\SalwaRTS\Private\PlayerCameraCharacter.cpp">
@@ -151,6 +160,15 @@
       <Filter>Source\SalwaRTS\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\SalwaRTS\Private\Item.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\BP_WeaponComponent.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\MyAIController.cpp">
+      <Filter>Source\SalwaRTS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SalwaRTS\Private\Enums.cpp">
       <Filter>Source\SalwaRTS\Private</Filter>
     </ClCompile>
   </ItemGroup>

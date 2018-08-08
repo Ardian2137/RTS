@@ -1,4 +1,8 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
-  Deploying SalwaRTSEditor Win64 Development...
-  Total build time: 0,53 seconds (NoActionsToExecute executor: 0,00 seconds)
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for SalwaRTSEditor (ini files are newer than UBTMakefile)
+  Parsing headers for SalwaRTSEditor
+    Running UnrealHeaderTool "C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\SalwaRTS.uproject" "C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\SalwaRTSEditor\Development\SalwaRTSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+C:/Users/Janusz Lorens/Documents/Unreal Projects/RTS/Source/SalwaRTS/Public/Enums.h(24): error : Missing ';'
+EXEC : error : UnrealHeaderTool failed for target 'SalwaRTSEditor' (platform: Win64, module info: C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\Intermediate\Build\Win64\SalwaRTSEditor\Development\SalwaRTSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "D:\UE_4.19\Engine\Build\BatchFiles\Build.bat SalwaRTSEditor Win64 Development "C:\Users\Janusz Lorens\Documents\Unreal Projects\RTS\SalwaRTS.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

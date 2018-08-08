@@ -6,7 +6,10 @@
 #include "Components/ActorComponent.h"
 #include "HealthComponent.generated.h"
 
+class AMyCharacter;
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnHealthAmountChanged);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeath, AMyCharacter*, DeadUnit);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SALWARTS_API UHealthComponent : public UActorComponent
@@ -48,6 +51,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = Stats)
 	FOnHealthAmountChanged OnHealthAmountChanged;
+
+	UPROPERTY(BlueprintAssignable, Category = Death)
+	FOnDeath OnDeath;
 
 private:
 

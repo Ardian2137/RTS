@@ -8,19 +8,33 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AMyCharacter;
 #ifdef SALWARTS_HealthComponent_generated_h
 #error "HealthComponent.generated.h already included, missing '#pragma once' in HealthComponent.h"
 #endif
 #define SALWARTS_HealthComponent_generated_h
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_9_DELEGATE \
+#define RTS_Source_SalwaRTS_HealthComponent_h_12_DELEGATE \
+struct _Script_SalwaRTS_eventOnDeath_Parms \
+{ \
+	AMyCharacter* DeadUnit; \
+}; \
+static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath, AMyCharacter* DeadUnit) \
+{ \
+	_Script_SalwaRTS_eventOnDeath_Parms Parms; \
+	Parms.DeadUnit=DeadUnit; \
+	OnDeath.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define RTS_Source_SalwaRTS_HealthComponent_h_11_DELEGATE \
 static inline void FOnHealthAmountChanged_DelegateWrapper(const FMulticastScriptDelegate& OnHealthAmountChanged) \
 { \
 	OnHealthAmountChanged.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_RPC_WRAPPERS \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIsAlive) \
 	{ \
@@ -82,7 +96,7 @@ static inline void FOnHealthAmountChanged_DelegateWrapper(const FMulticastScript
 	}
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIsAlive) \
 	{ \
@@ -144,7 +158,7 @@ static inline void FOnHealthAmountChanged_DelegateWrapper(const FMulticastScript
 	}
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_INCLASS_NO_PURE_DECLS \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend SALWARTS_API class UClass* Z_Construct_UClass_UHealthComponent(); \
@@ -154,7 +168,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_INCLASS \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend SALWARTS_API class UClass* Z_Construct_UClass_UHealthComponent(); \
@@ -164,7 +178,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_STANDARD_CONSTRUCTORS \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHealthComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHealthComponent) \
@@ -177,7 +191,7 @@ private: \
 public:
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_ENHANCED_CONSTRUCTORS \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UHealthComponent(UHealthComponent&&); \
@@ -188,26 +202,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHealthComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHealthComponent)
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_PRIVATE_PROPERTY_OFFSET
-#define RTS_Source_SalwaRTS_HealthComponent_h_11_PROLOG
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_GENERATED_BODY_LEGACY \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_PRIVATE_PROPERTY_OFFSET
+#define RTS_Source_SalwaRTS_HealthComponent_h_14_PROLOG
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_PRIVATE_PROPERTY_OFFSET \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_RPC_WRAPPERS \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_INCLASS \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_STANDARD_CONSTRUCTORS \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_PRIVATE_PROPERTY_OFFSET \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_RPC_WRAPPERS \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_INCLASS \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RTS_Source_SalwaRTS_HealthComponent_h_14_GENERATED_BODY \
+#define RTS_Source_SalwaRTS_HealthComponent_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_PRIVATE_PROPERTY_OFFSET \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_INCLASS_NO_PURE_DECLS \
-	RTS_Source_SalwaRTS_HealthComponent_h_14_ENHANCED_CONSTRUCTORS \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_PRIVATE_PROPERTY_OFFSET \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_INCLASS_NO_PURE_DECLS \
+	RTS_Source_SalwaRTS_HealthComponent_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

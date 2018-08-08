@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SALWARTS_MyGameState_generated_h
 
-#define RTS_Source_SalwaRTS_MyGameState_h_15_RPC_WRAPPERS
-#define RTS_Source_SalwaRTS_MyGameState_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define RTS_Source_SalwaRTS_MyGameState_h_15_INCLASS_NO_PURE_DECLS \
+#define RTS_Source_SalwaRTS_MyGameState_h_17_RPC_WRAPPERS
+#define RTS_Source_SalwaRTS_MyGameState_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define RTS_Source_SalwaRTS_MyGameState_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyGameState(); \
 	friend SALWARTS_API class UClass* Z_Construct_UClass_AMyGameState(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define RTS_Source_SalwaRTS_MyGameState_h_15_INCLASS \
+#define RTS_Source_SalwaRTS_MyGameState_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyGameState(); \
 	friend SALWARTS_API class UClass* Z_Construct_UClass_AMyGameState(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define RTS_Source_SalwaRTS_MyGameState_h_15_STANDARD_CONSTRUCTORS \
+#define RTS_Source_SalwaRTS_MyGameState_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyGameState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameState) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define RTS_Source_SalwaRTS_MyGameState_h_15_ENHANCED_CONSTRUCTORS \
+#define RTS_Source_SalwaRTS_MyGameState_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyGameState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,26 +61,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameState); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameState)
 
 
-#define RTS_Source_SalwaRTS_MyGameState_h_15_PRIVATE_PROPERTY_OFFSET
-#define RTS_Source_SalwaRTS_MyGameState_h_12_PROLOG
-#define RTS_Source_SalwaRTS_MyGameState_h_15_GENERATED_BODY_LEGACY \
+#define RTS_Source_SalwaRTS_MyGameState_h_17_PRIVATE_PROPERTY_OFFSET
+#define RTS_Source_SalwaRTS_MyGameState_h_14_PROLOG
+#define RTS_Source_SalwaRTS_MyGameState_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_Source_SalwaRTS_MyGameState_h_15_PRIVATE_PROPERTY_OFFSET \
-	RTS_Source_SalwaRTS_MyGameState_h_15_RPC_WRAPPERS \
-	RTS_Source_SalwaRTS_MyGameState_h_15_INCLASS \
-	RTS_Source_SalwaRTS_MyGameState_h_15_STANDARD_CONSTRUCTORS \
+	RTS_Source_SalwaRTS_MyGameState_h_17_PRIVATE_PROPERTY_OFFSET \
+	RTS_Source_SalwaRTS_MyGameState_h_17_RPC_WRAPPERS \
+	RTS_Source_SalwaRTS_MyGameState_h_17_INCLASS \
+	RTS_Source_SalwaRTS_MyGameState_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RTS_Source_SalwaRTS_MyGameState_h_15_GENERATED_BODY \
+#define RTS_Source_SalwaRTS_MyGameState_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_Source_SalwaRTS_MyGameState_h_15_PRIVATE_PROPERTY_OFFSET \
-	RTS_Source_SalwaRTS_MyGameState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	RTS_Source_SalwaRTS_MyGameState_h_15_INCLASS_NO_PURE_DECLS \
-	RTS_Source_SalwaRTS_MyGameState_h_15_ENHANCED_CONSTRUCTORS \
+	RTS_Source_SalwaRTS_MyGameState_h_17_PRIVATE_PROPERTY_OFFSET \
+	RTS_Source_SalwaRTS_MyGameState_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	RTS_Source_SalwaRTS_MyGameState_h_17_INCLASS_NO_PURE_DECLS \
+	RTS_Source_SalwaRTS_MyGameState_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

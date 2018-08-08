@@ -10,6 +10,9 @@ class UHealthComponent;
 class UWeaponComponent;
 class UManaComponent;
 
+
+
+
 UENUM(BlueprintType)
 enum class ETeam : uint8
 {
@@ -44,6 +47,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Components)
 	UWeaponComponent* WeaponComponent;
 
+
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -56,10 +61,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Config)
 	UTexture2D* Icon;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Config)
+	float VisionRange;
+
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	void MoveTo();
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	void HandleSelection(bool bSelected);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnDeath();
 
 };

@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeSalwaRTS_init() {}
 	SALWARTS_API UFunction* Z_Construct_UDelegateFunction_SalwaRTS_RebuildUnitsGridPanel__DelegateSignature();
 	SALWARTS_API UFunction* Z_Construct_UDelegateFunction_SalwaRTS_OnControlGroupModification__DelegateSignature();
 	SALWARTS_API UFunction* Z_Construct_UDelegateFunction_SalwaRTS_OnHealthAmountChanged__DelegateSignature();
+	SALWARTS_API UFunction* Z_Construct_UDelegateFunction_SalwaRTS_OnDeath__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_SalwaRTS()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -25,12 +26,13 @@ void EmptyLinkFunctionForGeneratedCodeSalwaRTS_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_SalwaRTS_RebuildUnitsGridPanel__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_SalwaRTS_OnControlGroupModification__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_SalwaRTS_OnHealthAmountChanged__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_SalwaRTS_OnDeath__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/SalwaRTS",
 				PKG_CompiledIn | 0x00000000,
-				0xCEE847D7,
-				0x430911C3,
+				0x8ABAE28D,
+				0x4C7E69C1,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

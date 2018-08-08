@@ -8,8 +8,23 @@
 
 class AWeapon;
 class AMyCharacter;
+class UAnimInstance;
 
-UCLASS(BlueprintType, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UENUM()
+namespace EFightingStyle
+{
+	enum Type
+	{
+		OneHandedAndShield,
+		TwoHanded,
+		BareFists,
+		Crossbow,
+		Bow,
+	};
+}
+
+
+UCLASS(BlueprintType, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class SALWARTS_API UWeaponComponent : public UActorComponent
 {
 	GENERATED_BODY()
@@ -27,22 +42,22 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+	TArray<UAnimSequence*> AttackAnims;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
 	TSubclassOf<AWeapon> RightWeaponClass;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
 	TSubclassOf<AWeapon> LeftWeaponClass;
-	
-	UPROPERTY(BlueprintReadWrite, Category = Weapon)
-	AWeapon* RightWeapon;
-
-	UPROPERTY(BlueprintReadWrite, Category = Weapon)
-	AWeapon* LeftWeapon;
 
 	UPROPERTY(BlueprintReadOnly, Category = Combat)
 	bool bIsAttacking;
 
 	UPROPERTY(BlueprintReadOnly, Category = Combat)
 	bool bCanAttack;
+
+	UPROPERTY(BlueprintReadOnly, Category = Combat)
+	TEnumAsByte<EFightingStyle::Type> FightingStyle;
 
 	UPROPERTY(BlueprintReadWrite, Category = Combat)
 	AMyCharacter* TargetToAttack;
@@ -51,6 +66,24 @@ public:
 	bool HaveTargetInCombatRange();
 
 	UFUNCTION(BlueprintCallable, Category = Combat)
+	bool SetLeftWeapon(AWeapon* NewLeftWeapon);
+
+	UFUNCTION(BlueprintCallable, Category = Combat)
+	bool SetRightWeapon(AWeapon* NewRightWeapon);
+
+	UFUNCTION(BlueprintPure, Category = Combat)
+	float GetFightingWeaponRange();
+
+	UFUNCTION(BlueprintCallable, Category = Combat)
 	void AttackMade();
 
+protected:
+	UPROPERTY(BlueprintReadOnly, Category = Weapon)
+	AWeapon* RightWeapon;
+
+	UPROPERTY(BlueprintReadOnly, Category = Weapon)
+	AWeapon* LeftWeapon;
+
+private:
+	void DetermineFightingStyle();
 };

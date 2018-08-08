@@ -4,20 +4,25 @@
 
 #include "CoreMinimal.h"
 #include "Item.h"
+#include "Enums.h"
 #include "Weapon.generated.h"
 
 class UAnimInstance;
 
 UENUM()
-enum EWeaponType
+namespace EWeaponType
 {
-	Sword,
-	Axe,
-	Shield,
-	Mace,
-	Bow,
-	Crossbow,
-};
+	enum Type
+	{
+		Sword,
+		Axe,
+		Shield,
+		Mace,
+		Bow,
+		Crossbow,
+		None,
+	};
+}
 
 UCLASS()
 class SALWARTS_API AWeapon : public AItem
@@ -37,6 +42,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
+	TEnumAsByte<EWeaponType::Type> WeaponType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
+	TEnumAsByte<EDamageType::Type> DamageType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
 	float Range;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
@@ -47,5 +58,10 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
 	int32 MaxDamage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Stats)
+	int32 AttackSpeed;
+	
+	bool IsMelee();
 
 };

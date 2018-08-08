@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SALWARTS_Weapon_generated_h
 
-#define RTS_Source_SalwaRTS_Weapon_h_25_RPC_WRAPPERS
-#define RTS_Source_SalwaRTS_Weapon_h_25_RPC_WRAPPERS_NO_PURE_DECLS
-#define RTS_Source_SalwaRTS_Weapon_h_25_INCLASS_NO_PURE_DECLS \
+#define RTS_Source_SalwaRTS_Weapon_h_30_RPC_WRAPPERS
+#define RTS_Source_SalwaRTS_Weapon_h_30_RPC_WRAPPERS_NO_PURE_DECLS
+#define RTS_Source_SalwaRTS_Weapon_h_30_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
 	friend SALWARTS_API class UClass* Z_Construct_UClass_AWeapon(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define RTS_Source_SalwaRTS_Weapon_h_25_INCLASS \
+#define RTS_Source_SalwaRTS_Weapon_h_30_INCLASS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
 	friend SALWARTS_API class UClass* Z_Construct_UClass_AWeapon(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define RTS_Source_SalwaRTS_Weapon_h_25_STANDARD_CONSTRUCTORS \
+#define RTS_Source_SalwaRTS_Weapon_h_30_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWeapon) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define RTS_Source_SalwaRTS_Weapon_h_25_ENHANCED_CONSTRUCTORS \
+#define RTS_Source_SalwaRTS_Weapon_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWeapon(AWeapon&&); \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWeapon)
 
 
-#define RTS_Source_SalwaRTS_Weapon_h_25_PRIVATE_PROPERTY_OFFSET
-#define RTS_Source_SalwaRTS_Weapon_h_22_PROLOG
-#define RTS_Source_SalwaRTS_Weapon_h_25_GENERATED_BODY_LEGACY \
+#define RTS_Source_SalwaRTS_Weapon_h_30_PRIVATE_PROPERTY_OFFSET
+#define RTS_Source_SalwaRTS_Weapon_h_27_PROLOG
+#define RTS_Source_SalwaRTS_Weapon_h_30_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_Source_SalwaRTS_Weapon_h_25_PRIVATE_PROPERTY_OFFSET \
-	RTS_Source_SalwaRTS_Weapon_h_25_RPC_WRAPPERS \
-	RTS_Source_SalwaRTS_Weapon_h_25_INCLASS \
-	RTS_Source_SalwaRTS_Weapon_h_25_STANDARD_CONSTRUCTORS \
+	RTS_Source_SalwaRTS_Weapon_h_30_PRIVATE_PROPERTY_OFFSET \
+	RTS_Source_SalwaRTS_Weapon_h_30_RPC_WRAPPERS \
+	RTS_Source_SalwaRTS_Weapon_h_30_INCLASS \
+	RTS_Source_SalwaRTS_Weapon_h_30_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RTS_Source_SalwaRTS_Weapon_h_25_GENERATED_BODY \
+#define RTS_Source_SalwaRTS_Weapon_h_30_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_Source_SalwaRTS_Weapon_h_25_PRIVATE_PROPERTY_OFFSET \
-	RTS_Source_SalwaRTS_Weapon_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	RTS_Source_SalwaRTS_Weapon_h_25_INCLASS_NO_PURE_DECLS \
-	RTS_Source_SalwaRTS_Weapon_h_25_ENHANCED_CONSTRUCTORS \
+	RTS_Source_SalwaRTS_Weapon_h_30_PRIVATE_PROPERTY_OFFSET \
+	RTS_Source_SalwaRTS_Weapon_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	RTS_Source_SalwaRTS_Weapon_h_30_INCLASS_NO_PURE_DECLS \
+	RTS_Source_SalwaRTS_Weapon_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -88,10 +88,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #define FOREACH_ENUM_EWEAPONTYPE(op) \
-	op(Sword) \
-	op(Axe) \
-	op(Shield) \
-	op(Mace) \
-	op(Bow) \
-	op(Crossbow) 
+	op(EWeaponType::Sword) \
+	op(EWeaponType::Axe) \
+	op(EWeaponType::Shield) \
+	op(EWeaponType::Mace) \
+	op(EWeaponType::Bow) \
+	op(EWeaponType::Crossbow) \
+	op(EWeaponType::None) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "HealthComponent.h"
+#include "MyCharacter.h"
 
 
 // Sets default values for this component's properties
@@ -52,6 +53,7 @@ void UHealthComponent::LooseHealth(float Amount)
 	if (CurrentHealth - Amount <= 0.0f)
 	{
 		CurrentHealth = 0.0f;
+		OnDeath.Broadcast(Cast<AMyCharacter>(GetOwner()));
 	}
 	else
 	{
@@ -95,5 +97,5 @@ float UHealthComponent::GetHealthPercentage()
 
 bool UHealthComponent::IsAlive()
 {
-	return CurrentHealth;
+	return CurrentHealth > 0.0f;
 }

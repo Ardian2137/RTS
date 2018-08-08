@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	SALWARTS_API UFunction* Z_Construct_UFunction_AMyCharacter_HandleSelection();
 	SALWARTS_API UFunction* Z_Construct_UFunction_AMyCharacter_MoveTo();
+	SALWARTS_API UFunction* Z_Construct_UFunction_AMyCharacter_OnDeath();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	SALWARTS_API UClass* Z_Construct_UClass_UWeaponComponent_NoRegister();
 	SALWARTS_API UClass* Z_Construct_UClass_UManaComponent_NoRegister();
@@ -85,6 +86,11 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AMyCharacter_MoveTo),NULL);
 	}
+	static FName NAME_AMyCharacter_OnDeath = FName(TEXT("OnDeath"));
+	void AMyCharacter::OnDeath()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AMyCharacter_OnDeath),NULL);
+	}
 	void AMyCharacter::StaticRegisterNativesAMyCharacter()
 	{
 	}
@@ -123,6 +129,21 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AMyCharacter_OnDeath()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "MyCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, "OnDeath", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AMyCharacter_NoRegister()
 	{
 		return AMyCharacter::StaticClass();
@@ -139,6 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AMyCharacter_HandleSelection, "HandleSelection" }, // 2402516351
 				{ &Z_Construct_UFunction_AMyCharacter_MoveTo, "MoveTo" }, // 3495412222
+				{ &Z_Construct_UFunction_AMyCharacter_OnDeath, "OnDeath" }, // 2751807639
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -148,6 +170,13 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 				{ "ObjectInitializerConstructorDeclared", "" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VisionRange_MetaData[] = {
+				{ "Category", "Config" },
+				{ "ModuleRelativePath", "MyCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VisionRange = { UE4CodeGen_Private::EPropertyClass::Float, "VisionRange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AMyCharacter, VisionRange), METADATA_PARAMS(NewProp_VisionRange_MetaData, ARRAY_COUNT(NewProp_VisionRange_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Icon_MetaData[] = {
 				{ "Category", "Config" },
@@ -197,6 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_VisibleUnits = { UE4CodeGen_Private::EPropertyClass::Array, "VisibleUnits", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AMyCharacter, VisibleUnits), METADATA_PARAMS(NewProp_VisibleUnits_MetaData, ARRAY_COUNT(NewProp_VisibleUnits_MetaData)) };
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VisibleUnits_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "VisibleUnits", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_AMyCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_VisionRange,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Icon,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Team,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Team_Underlying,
@@ -224,7 +254,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 1723038711);
+	IMPLEMENT_CLASS(AMyCharacter, 1906692996);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyCharacter(Z_Construct_UClass_AMyCharacter, &AMyCharacter::StaticClass, TEXT("/Script/SalwaRTS"), TEXT("AMyCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

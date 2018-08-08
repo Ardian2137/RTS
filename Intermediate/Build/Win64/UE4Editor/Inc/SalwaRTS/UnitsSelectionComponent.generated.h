@@ -53,6 +53,16 @@ static inline void FRebuildUnitsGridPanel_DelegateWrapper(const FMulticastScript
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execRefteshControlGroup) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
+		P_GET_OBJECT(AMyCharacter,Z_Param_DeadUnit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RefteshControlGroup(Z_Param_GroupIndex,Z_Param_DeadUnit); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetCurrentlySelectedUnits) \
 	{ \
 		P_GET_TARRAY(AMyCharacter*,Z_Param_NewSelectedUnits); \
@@ -79,6 +89,16 @@ static inline void FRebuildUnitsGridPanel_DelegateWrapper(const FMulticastScript
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->UseControlGroup(Z_Param_GroupIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRefteshControlGroup) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_GroupIndex); \
+		P_GET_OBJECT(AMyCharacter,Z_Param_DeadUnit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RefteshControlGroup(Z_Param_GroupIndex,Z_Param_DeadUnit); \
 		P_NATIVE_END; \
 	} \
  \
